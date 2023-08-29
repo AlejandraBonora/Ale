@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="cabeceraAdmin">
+                <a href="index.html"><img  class="logoMenu" src="../multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
+                <ul class="menuHeaderAdmin">
+                    <a href="../shop.html">VER TIENDA</a>
+                    <a href="admin.html">ADMIN</a>
+                    <a href="#">SALIR</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>CREAR NUEVO ITEM</h1>
+        <label class="select" for="text">
+            <span>Categoría:</span>
+            <select id="selectCategoria" name="Categoría">
+                <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
+            </select>
+            <span>Licencia:</span>
+            <select id="selectLicencia" name="Licencia">
+                <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
+            </select>
+        </label>
+        <h2>Nombre del producto:</h2>
+        <input type="text" placeholder="Kakashi Hatake Shippuden Saga">
+        <input type="text" placeholder="Descripcion del producto">
+        <input type="text" placeholder="SSK111AB001">SKU:
+        <input type="number" placeholder="$ 0.000,00"">Precio:
+        <input type="number" placeholder="0">Stock:
+        <input type="number" placeholder="0%">Descuento:
+        <span>Cuotas:</span>
+            <select id="selectCuotas" name="cuotas">
+                <option  class="opcionCuotas" value="" disabled selected>3 Cuotas sin interés</option>
+            </select>
+        </label>
+        <div class="elegirArchivos">
+            <span>Imágenes:</span>
+            <input type="file" name="Elegir Archivos">
+        </div>
+        <div class="botonesCrearItem">
+            <button class="botonesCrearItem">Agregar Producto</button>
+            <button class="botonesCrearItem">limpiar</button>
+        </div>
+
+    </main>
+    <footer>
+        <a href="../shop.html">SHOP</a>
+        <a href="#">REGISTRARSE</a>
+        <a href="#">INGRESAR</a>
+        <a href="#">CONTACTO</a>
+        <img src="../multimedia/branding/isotype.svg" alt="Logo Funkoshop">
+        <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer> 
+    
+</body>
+</html>
