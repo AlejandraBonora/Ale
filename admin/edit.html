@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CREATE</title>
+    <title>EDIT</title>
 </head>
 <body>
     <header>
@@ -19,8 +19,8 @@
         </nav>
     </header>
     <main>
-        <h1>CREAR NUEVO ITEM</h1>
-        <label class="select" for="text">
+        <h1>EDITAR ITEM</h1>
+        <label class="edit" for="text">
             <span>Categoría:</span>
             <select id="selectCategoria" name="Categoría">
                 <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
@@ -31,12 +31,12 @@
             </select>
         </label>
         <h2>Nombre del producto:</h2>
-        <input type="text" placeholder="Kakashi Hatake Shippuden Saga">
-        <input type="text" placeholder="Descripcion del producto">
-        <input type="text" placeholder="SSK111AB001">SKU:
-        <input type="number" placeholder="$ 0.000,00">Precio:
-        <input type="number" placeholder="0">Stock:
-        <input type="number" placeholder="0%">Descuento:
+       
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <span>SKU:</span>
+        <span>Precio:</span>
+        <span>Stock:</span>
+        <span>Descuento:</span>
         <span>Cuotas:</span>
             <select id="selectCuotas" name="cuotas">
                 <option  class="opcionCuotas" value="" disabled selected>3 Cuotas sin interés</option>
@@ -47,8 +47,7 @@
             <input type="file" name="Elegir Archivos">
         </div>
         <div class="botonesCrearItem">
-            <button class="botonesCrearItem">Agregar Producto</button>
-            <button class="botonesCrearItem">Limpiar</button>
+            <button class="botonesCrearItem">Modificar Producto</button>
         </div>
 
     </main>
