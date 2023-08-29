@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,13 +21,53 @@
     </header>
     <main>
         <section id="carrito">
-            <div class="tablaProductos">
-
-            </div>
-            <div class="resumen">
-                
-            </div>
+            <h1>CARRITO DE COMPRAS</h1>
+            <section class="encabezadoCarrito">
+                <label for="title">
+                    <span>DETALLE DE PRODUCTO</span>
+                    <span>CANTIDAD</span>
+                    <span>TOTAL</span>
+                </label>
+            </section>
+            <section class="productoCarrito">
+                <label for="item"><img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby yoda">
+                <div class="descripcionProductoCarrito">
+                    <h1>BABY YODA BLUEBALL</h1>
+                    <p>STAR WARS</p>
+                    <p>$1799,99</p>
+                </div>
+                <input type="number" placeholder="1">
+                <span>$1799,99</span>\
+                <img src="multimedia/icons/delete-cart.svg" alt="icono borrar item">
+            </label>
         </section>
+        <section class="resumenCarrito">
+                <h1>RESUMEN</h1>
+                <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
+                <table class="tablaResumenCarrito">
+                    <tr>
+                        <th>CANTIDAD DE ELEMENTOS
+                            <td class="elementosCarrito">3</td>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>SUBTOTAL
+                            <td class="subtotalCarrito">$ 5.399,97</td>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>ENVIO 
+                            <td class="envioCarrito">$ 0,00</td>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>TOTAL 
+                            <td class="totalCarrito">$ 5.399,97</td>
+                        </th>
+                    </tr>
+                </table>
+                <button class="buttonPagarCarrito" >IR A PAGAR</button>
+        </section>      
     </main>
     <footer>
         <a href="shop.html">SHOP</a>
@@ -35,6 +75,6 @@
         <a href="#">CONTACTO</a>
         <img src="multimedia/branding/isotype.svg" alt="Logo Funkoshop">
         <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
-      </footer>  
+    </footer>  
 </body>
 </html>
