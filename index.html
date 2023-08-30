@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylos.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
     <title>HOME</title>
 </head>
-<body>
+<body id="bodyIndex">
     <h1>paginas</h1>
     <a href="item.html">item</a>
     <a href="carrito.html">carrito</a>
-    <header>
-        <nav>
-            <div class="cabecera">
-                <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
-                <ul class="menu">
-                    <a href="shop.html">SHOP</a>
-                    <a href="#">CONTACTO</a>
-                    <a href="#">LOGIN</a>
-                    <a href="#"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>
-                </ul>
-            </div>
+    <header id="cabeceraUsuario">
+        <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
+              
+
+        <div class="menuHeader"></div>
+        <nav>         
+            <a href="shop.html">SHOP</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">LOGIN</a>
+            <a href="#"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
         </nav>
+        </div>
+       
     </header>
   <main>
     <section class="banner">
-        <img src="multimedia/funkos-banner.webp" alt="">
-            <div descripcionBanner>
+        <img class="imgBanner" src="multimedia/funkos-banner.webp" alt="">
+            <span class="descripcionBanner">
                 <h1>NUEVOS INGRESOS</h1>
                 <p>Descubrí el próximo Funko Pop de tu colección</p>
                 <button>SHOP</button> 
-            </div>
+            </span>
     </section>
 
     <section class="productos">

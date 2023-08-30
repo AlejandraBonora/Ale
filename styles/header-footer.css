@@ -1,0 +1,49 @@
+body {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+
+#cabeceraUsuario { 
+    width: 90rem;
+    height: 9rem;
+    flex-shrink:0;
+    background: #30343F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: plum;
+}
+.menuHeader{
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+ .logoMenu{
+    width: 23rem;
+    height: auto;
+    padding: 10rem 4rem;
+
+ }
