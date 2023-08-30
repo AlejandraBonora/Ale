@@ -1,13 +1,8 @@
-body {
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 20px;
-}
 
 
 
 #cabeceraUsuario { 
-    width: 90rem;
+    width: 90rem ;
     height: 9rem;
     flex-shrink:0;
     background: #30343F;
@@ -16,6 +11,7 @@ body {
     align-items: center;
 
 }
+
 
 a:link {
     color: #FFFFFF;
@@ -30,15 +26,27 @@ a:hover {
 }
 
 a:active {
-    color: plum;
+    color: #FF4848;
 }
-.menuHeader{
+.navHeaderUsuario{
+    display: flex;
+    margin-right: 6rem;
 
+
+}
+.menuHeader-link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-right: 2rem
+ 
+
+   
 
 }
  .logoMenu{
@@ -47,3 +55,4 @@ a:active {
     padding: 10rem 4rem;
 
  }
+

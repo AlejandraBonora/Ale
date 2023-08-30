@@ -1,11 +1,59 @@
 
-
-
-.banner{
-
-}
-
-.imgBanner{
+#banner {
     width: 90rem;
-    height: 55rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(/multimedia/funkos-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom ;
+
+    
 }
+
+
+#banner h1{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+    filter: blur none;
+}
+
+
+#banner p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5rem;
+    margin-top: auto;
+}
+#banner button{
+    width: 15rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 3rem;
+    background: #FFF;
+    border-color: #FFF;
+    border: none;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: #111;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: normal; 
+}
+

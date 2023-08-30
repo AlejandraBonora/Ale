@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Raleway&display=swap" rel="stylesheet">
     <title>HOME</title>
 </head>
-<body id="bodyIndex">
+<body>
     <h1>paginas</h1>
     <a href="item.html">item</a>
     <a href="carrito.html">carrito</a>
@@ -16,30 +22,30 @@
               
 
         <div class="menuHeader"></div>
-        <nav>         
-            <a href="shop.html">SHOP</a>
-            <a href="#">CONTACTO</a>
-            <a href="#">LOGIN</a>
-            <a href="#"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
+        <nav class="navHeaderUsuario">         
+            <a class="menuHeader-link" href="shop.html">SHOP<select value=""></select></a>
+            <a class="menuHeader-link" href="#">CONTACTO</a>
+            <a class="menuHeader-link" href="#">LOGIN</a>
+            <a class="menuHeader-link" href="#"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
         </nav>
         </div>
        
     </header>
   <main>
-    <section class="banner">
-        <img class="imgBanner" src="multimedia/funkos-banner.webp" alt="">
-            <span class="descripcionBanner">
-                <h1>NUEVOS INGRESOS</h1>
-                <p>Descubrí el próximo Funko Pop de tu colección</p>
-                <button>SHOP</button> 
-            </span>
+    <section id="banner">
+        <article class="descripcionBanner">
+            <h1>Nuevos Ingresos</h1>
+            <p>Descubrí el próximo Funko Pop de tu colección</p>
+            <button>SHOP</button> 
+        </article>
+            
     </section>
 
     <section class="productos">
         <div class="producto1">
             <img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby Yoda">
                 <h1>STAR WARDS & THE MANDALORIAN</h1>
-                <P>Disfruta de una saga que sigue agregando personajes a su coleccion.</P>
+                <p>Disfruta de una saga que sigue agregando personajes a su coleccion.</p>
                 <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
             <button>VER COLECCION</button>
         </div>
