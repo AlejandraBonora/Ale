@@ -60,5 +60,49 @@ a:active {
   
    
 }
+footer{
+    width: auto ;
+    height: 27rem;        
+    flex-shrink:0;
+    background: #30343F;
+}
+.footerUsuario{
+    width: auto;
+    height: 20rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 19rem;
+    margin-right: 22rem;
+
+}
+.navFooter a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1.5rem;
+    
+}
+.logoFooter img{
+    width: 16rem;
+    margin-top: 4rem;
+}
+footer p{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
 
 
