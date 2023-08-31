@@ -10,7 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
     <title>HOME</title>
 </head>
 <body>
@@ -19,17 +23,14 @@
     <a href="carrito.html">carrito</a>
     <header id="cabeceraUsuario">
         <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
-              
-
         <div class="menuHeader"></div>
         <nav class="navHeaderUsuario">         
-            <a class="menuHeader-link" href="shop.html">SHOP<select value=""></select></a>
+            <a class="menuHeader-link" href="shop.html">SHOP<svg class="iconoDesplegableMenu" focusable="false"></svg></a>          
             <a class="menuHeader-link" href="#">CONTACTO</a>
             <a class="menuHeader-link" href="#">LOGIN</a>
             <a class="menuHeader-link" href="#"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
         </nav>
-        </div>
-       
+        </div>      
     </header>
   <main>
     <section id="banner">
@@ -43,57 +44,86 @@
 
     <section class="productos">
         <div class="producto1">
-            <img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby Yoda">
-                <h1>STAR WARDS & THE MANDALORIAN</h1>
+            <div class="imgProducto1">
+                <img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby Yoda">
+            </div>
+            <div class="descripcionProducto1">
+                <h1>STAR WARS & THE MANDALORIAN</h1>
                 <p>Disfruta de una saga que sigue agregando personajes a su coleccion.</p>
                 <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
-            <button>VER COLECCION</button>
+                <button>VER COLECCION</button>
+            </div>
+               
+           
         </div>
         <div class="producto2">
-            <img src="multimedia/pokemon/vulpix-1.webp" alt="linea">
+            <div class="imgProducto2">
+                <img src="multimedia/pokemon/vulpix-1.webp" alt="linea">
+            </div>
+            <div class="descripcionProducto2">
                 <h1>POKEMON INDIGO</h1>
                 <P>Atrapa todos los que puedas y disfruta de una colección llena de amigos.</P>
                 <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
+                <button>VER COLECCION</button>
+            </div>
+        </div>
+        
+        <div class="producto3">
+            <div class="imgProducto3">
+                <img src="multimedia/harry-potter/snape-patronus-1.webp" alt="funko patronus">
+            </div>
+        <div class="descripcionProducto3" >
+            <h1>HARRY POTTER</h1>
+            <P>Revive los recuerdos de una saga llena de magia y encanto.</P>
+            <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
             <button>VER COLECCION</button>
         </div>
-        <div class="producto3">
-            <img src="multimedia/harry-potter/snape-patronus-1.webp" alt="linea">
-                <h1>HARRY POTTER</h1>
-                <P>Revive los recuerdos de una saga llena de magia y encanto.</P>
-                <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
-            <button>VER COLECCION</button>
+
         </div>
     </section>
 
     <section class="nuevosLanzamientos">
-        <H1>ULTIMOS LANZAMIENTOS</H1>
-            <div class="lanzamientosImg">
-                <img src="multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
+        <h1>ÚLTIMOS LANZAMIENTOS</h1>
+        <div class="nuevosLanzamientosProductos">
+            <div class="lanzamientosProducto1">
+                <div class="lanzamientosImg">
+                    <img src="multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
+                </div>
+                <div class="lanzamientosDescripcion" >
+                        <p>STAR WARS</p>
+                        <h2>STORMTROOPER LIGHTSABER</h2>
+                        <p>$ 1799,99</p>
+                        <span>3 CUOTAS SIN INTERÉS</span>   
+                </div> 
             </div>
-            <div class="lanzamientosDescripcion" >
-                    <h1>STAR WARS</h1>
-                    <h2>STORMTROOPER LIGHTSABER</h2>
-                    <p>$ 1799,99</p>
-                    <p>3 CUOTAS SIN INTERÉS</p>   
-            </div>           
-            <div class="lanzamientosImg">
-                <img src="multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
-            </div> 
-            <div class="lanzamientosDescripcion">
-                    <h1>POKEMON</h1>
-                    <h2>PIDGEOTTO</h2>
-                    <p>$ 1799,99</p>
-                    <p>3 CUOTAS SIN INTERÉS</p>  
-            </div>                       
-            <div class="lanzamientosImg">
-                <img src="multimedia/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
-            </div>
-            <div class="lanzamientosDescripcion">
-                    <h1>HARRY POTTER</h1>
-                    <h2>LUNA LOVEGOOD LION MASK</h2>                    
-                    <p>$ 1799,99</p>
-                    <p>3 CUOTAS SIN INTERÉS</p>   
-            </div>              
+ 
+            <div class="lanzamientosProducto2">
+                <div class="lanzamientosImg">
+                    <img src="multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
+                </div> 
+                <div class="lanzamientosDescripcion">
+                        <p>POKEMON</p>
+                        <h2>PIDGEOTTO</h2>
+                        <p>$ 1799,99</p>
+                        <span>3 CUOTAS SIN INTERÉS</span>  
+                </div>                   
+            </div>         
+
+            <div class="lanzamientosProducto3">
+                <div class="lanzamientosImg">
+                    <img src="multimedia/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
+                </div>
+                <div class="lanzamientosDescripcion">
+                        <p>HARRY POTTER</p>
+                        <h2>LUNA LOVEGOOD LION MASK</h2>                    
+                        <p>$ 1799,99</p>
+                        <span>3 CUOTAS SIN INTERÉS</span>   
+                </div>                            
+            </div>                    
+   
+
+        </div>
+            
     </section>
   </main>  
   <footer>

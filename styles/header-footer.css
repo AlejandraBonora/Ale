@@ -1,9 +1,7 @@
 
-
-
 #cabeceraUsuario { 
-    width: 90rem ;
-    height: 9rem;
+    width: auto ;
+    height: 11rem;
     flex-shrink:0;
     background: #30343F;
     display: flex;
@@ -28,31 +26,39 @@ a:hover {
 a:active {
     color: #FF4848;
 }
+.logoMenu{
+    width: 40rem;
+    height: auto;
+    padding: 10rem 4rem;
+    margin-left: 7rem;
+
+ }
 .navHeaderUsuario{
     display: flex;
-    margin-right: 6rem;
-
-
+    margin-right: 10rem;
 }
 .menuHeader-link{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
     font-family: Raleway;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-right: 2rem
- 
-
-   
-
 }
- .logoMenu{
-    width: 23rem;
-    height: auto;
-    padding: 10rem 4rem;
+.iconoDesplegableMenu{
+    background-image: url(/multimedia/icono-desplegable.svg);
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    width: 1rem;
+    height: 2rem;
+    background-position: center center ;
+    border:1rem;
+    margin-left: 0.5rem;
+  
+   
+}
 
- }
 
