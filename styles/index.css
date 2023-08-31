@@ -1,4 +1,7 @@
 
+body{
+    width: auto;
+}
 #banner {
     width: auto;
     height: 40rem;
