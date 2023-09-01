@@ -7,13 +7,12 @@
 }
 .imgBanner{
     width: 100%;
-
 }
 .imgBanner img{
     width: 100%;
     height: 30rem;
     background-repeat: no-repeat;
-    object-position: center bottom;
+    object-position: center 80%;
     object-fit: cover;
     filter: blur(.19rem);
 }
@@ -26,7 +25,7 @@
 .descripcionBanner h1{
     color: #FFF;
     font-family: Raleway;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -57,11 +56,11 @@
     border-color: #FFF;
     border: none;
     margin-left: 5rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color: #111;
     font-family: Inter;
-    font-size: 1.7rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
     line-height: normal; 
 }
 
@@ -266,14 +265,15 @@
     margin-left: 19rem;
     margin-right: 22rem;
     margin-bottom: 2rem;
-   
+
 }
 .nuevosLanzamientosProductos{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-
-   
+    flex-wrap: wrap;   
+}
+.lanzamientosImg img{
+    width: 20rem;
 }
 .lanzamientosProductos1{
     display: flex;
@@ -297,18 +297,16 @@
 .nuevosLanzamientos h1{
     color: #111;
     font-family: Raleway;
-    font-size: 5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
- 
-
 }
 .nuevosLanzamientos h2{
     color: #111;
     font-family: Inter;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -317,7 +315,7 @@
 .nuevosLanzamientos p{
     color:#333;
     font-family: Inter;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -325,7 +323,7 @@
 .nuevosLanzamientos span{
     color: #1D84B5;
     font-family: Inter;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
