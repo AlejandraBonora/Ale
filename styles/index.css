@@ -1,20 +1,22 @@
-
+/*banner------------------------------------------------------------*/
 #banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+ 
 }
 .imgBanner{
     width: 100%;
 }
 .imgBanner img{
     width: 100%;
-    height: 30rem;
+    height: 25em;
     background-repeat: no-repeat;
     object-position: center 80%;
     object-fit: cover;
     filter: blur(.19rem);
+    filter: brightness(60%);
 }
 .descripcionBanner{
     position: absolute;
@@ -35,8 +37,6 @@
     border: 0;
     filter: blur none;
 }
-
-
 .descripcionBanner p {
     color: #FFF;
     font-family: Raleway;
@@ -67,9 +67,6 @@
 /*Seccion Productos --------------------------------------*/
 
 .productos{
-    
-    width: auto;
-    width: auto;
     height: 90rem;
 }
 .producto1 {

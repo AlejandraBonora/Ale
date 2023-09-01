@@ -9,8 +9,6 @@
     align-items: center;
 
 }
-
-
 a:link {
     color: #FFFFFF;
 }
@@ -30,12 +28,11 @@ a:active {
     width: 25rem;
     height: auto;
     padding: 10rem 4rem;
-    margin-left: 7rem;
-
+    
  }
 .navHeaderUsuario{
     display: flex;
-    margin-right: 10rem;
+    margin-right: 3rem;
 }
 .menuHeader-link{
     text-decoration: none;
