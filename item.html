@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/header-footer.css">
     <title>ITEM</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="cabecera">
-                <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
-                <ul class="menu">
-                    <a href="shop.html">SHOP</a>
-                    <a href="#">CONTACTO</a>
-                    <a href="#">LOGIN</a>
-                    <a href="#"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>
-                </ul>
-            </div>
+    <header id="cabeceraUsuario">
+        <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
+        <div class="menuHeader"></div>
+        <nav class="navHeaderUsuario">         
+            <a class="menuHeader-link" href="shop.html">SHOP<svg class="iconoDesplegableMenu" focusable="false"></svg></a>          
+            <a class="menuHeader-link" href="#">CONTACTO</a>
+            <a class="menuHeader-link" href="admin/login.html">LOGIN</a>
+            <a class="menuHeader-link" href="carrito.html"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
         </nav>
+        </div>      
     </header>
     <main>
         <section class="producto">
@@ -70,12 +69,18 @@
             </div>              
         </section>
     </main>
-  <footer>
-    <a href="shop.html">SHOP</a>
-    <a href="#">INGRESAR</a>
-    <a href="#">CONTACTO</a>
-    <img src="multimedia/branding/isotype.svg" alt="Logo Funkoshop">
-    <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
-  </footer>     
+    <footer>
+        <div class="footerUsuario">
+            <div class="navFooter">
+                <a href="shop.html">SHOP</a>
+                <a href="admin/login.html">INGRESAR</a>
+                <a href="#">CONTACTO</a>
+            </div>
+            <div class="logoFooter">
+                <img src="multimedia/branding/isotype.svg" alt="Logo Funkoshop">
+            </div>
+        </div>
+        <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
+      </footer>     
 </body>
 </html>
