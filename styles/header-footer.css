@@ -11,10 +11,12 @@
 }
 a:link {
     color: #FFFFFF;
+    font-weight: 500;
 }
 
 a:visited {
-    color: lightgray;
+    color: #FFFFFF;
+
 }
 
 a:hover {
@@ -34,7 +36,7 @@ a:active {
     display: flex;
     margin-right: 3rem;
 }
-.menuHeader-link{
+.menuHeader-link {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -44,19 +46,21 @@ a:active {
     font-weight: 500;
     line-height: normal;
     margin-right: 2rem
+
 }
-.iconoDesplegableMenu{
-    background-image: url(/multimedia/icono-desplegable.svg);
-    background-repeat: no-repeat;
-    background-size: 1rem;
-    width: 1rem;
-    height: 2rem;
-    background-position: center center ;
-    border:1rem;
-    margin-left: 0.5rem;
-  
-   
+.selectShop {
+    background-color:#30343F ;
+    font-family: Raleway;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    color: #FFFFFF;
+    text-align: end;
+    margin-right: 2rem
 }
+
 footer{
     width: auto ;
     height: 15rem;        
