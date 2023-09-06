@@ -74,13 +74,11 @@
 /*Seccion Productos --------------------------------------*/
 
 .productos{
- 
     margin-left: 10%;
     margin-right: 20%;
     height: 100rem;
 }
-.producto1 {
-    
+.producto1 {  
     display: grid;
     grid-auto-columns: 65% 35%;
     align-items: center;
@@ -352,4 +350,142 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+@media screen and (max-width:480px){
+
+    .imgBanner img{
+        height: 15em;
+    }
+    .descripcionBanner{
+        width: 85%;
+        margin: 0;
+        text-align: center;
+    }
+    .descripcionBanner h1{
+        font-size: 2rem;
+    }
+    .descripcionBanner p {
+        font-size: 1.1rem;
+    }
+    .descripcionBanner button {
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 3rem;
+        font-size: 1.2rem;
+    }
+    /* productos.........................................*/
+    .productos{
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 80rem;
+
+    }
+    .producto1 {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        height: 15rem;
+    }
+    .imgProducto1{
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+    }
+    .imgProducto1 img{
+        height: 15rem;
+    }
+    .descripcionProducto1{
+        width: 80%;
+        margin-top: 25rem;
+    }
+    .descripcionProducto1 h1{
+        font-size: 1.5rem;
+
+    }
+    .descripcionProducto1 p{
+        font-size: 1rem;
+        width: auto;
+    }
+    .descripcionProducto1 img{
+        width: 85%;
+        height: 2rem;
+    }
+    .descripcionProducto1 button{
+        width: 8rem;
+        height: 40px;
+        font-size: .7rem;
+    }
+    .producto2 {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        height: 25rem;
+        margin-top: 5rem;
+    }
+    .imgProducto2{
+        grid-column: 1 / 1;
+        grid-row: 2/ 2;
+     
+    }
+    .imgProducto2 img{
+        height: 15rem;
+    }
+    .descripcionProducto2{
+        position: absolute;
+        width: 100%;
+        margin-top: 28rem;
+    }
+    .descripcionProducto2 h1{
+        font-size: 1.5rem;
+    }
+    .descripcionProducto2 p{
+        font-size: 1rem;
+    }
+    .descripcionProducto2 img{
+        width: 70%;
+    }
+    .descripcionProducto2 button{
+        width: 8rem;
+        height: 40px;
+        font-size: .7rem;
+    }
+    .producto3 {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        height: 25rem;
+    }
+    .imgProducto3{
+        grid-column: 1 / 1;
+        grid-row: 3/ 3;
+     
+    }
+    .imgProducto3 img{
+        height: 15rem;
+    }
+    .descripcionProducto3{
+        width: 100%;
+        margin-top: 28rem;
+    }
+    .descripcionProducto3 img{
+        width: 80%;
+    }
+    .descripcionProducto3 h1{
+        font-size: 1.5rem;
+    }
+    .descripcionProducto3 p{
+        font-size: 1rem;
+    }
+    .descripcionProducto3 button{
+        width: 8rem;
+        height: 40px;
+        font-size: .7rem;
+    }
+    
+       /* ultimos Lanzamientos.......................................*/
+  
+    .nuevosLanzamientos h1{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
 }
