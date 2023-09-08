@@ -78,38 +78,26 @@ body{
 
 .productos{
     margin-left: 10%;
-    margin-right: 20%;
-    height: 100rem;
+    margin-right: 10%;
+    
 }
 .producto1 {  
-    display: grid;
-    grid-auto-columns: 65% 35%;
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    width: auto;
-
-}
-.imgProducto1{
-    grid-column: 2 / 2;
-    grid-row: 1 / 1;
-
-    
+    justify-content: center;
 }
 .imgProducto1 img{
-    height: 35rem;
-    
- 
+    position: relative;
+    width: 35em;
 }
 .descripcionProducto1 {
-    position: absolute;
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
-    width: 40%;    
+    position: relative;   
 }
 .descripcionProducto1 h1{
-  
     color: #111;
     font-family: Raleway;
-    font-size: 3rem;
+    font-size: 3em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -127,13 +115,12 @@ body{
     width: 70%;
 }
 .descripcionProducto1 img{
-    width: auto;
-
+    width: 100%;
+   
 }
-
 .descripcionProducto1 button{
-    width: 17rem;
-    height: 65px;
+    width: 13em;
+    height: 3em;
     flex-shrink: 0;
     border-radius: 50px;
     background: #30343F;
@@ -144,34 +131,26 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 1.2rem;
+    margin-top: 1.2em;
 }
 /*---------------------------------------------------------------*/
 .producto2 {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    width: auto;
-    grid-auto-columns: 40% 75%; 
-}
-.imgProducto2{
-    grid-column: 2 / 1;
-    grid-row: 2 / 2;
+    justify-content: center;
 }
 .imgProducto2 img{
-    height: 30rem;
-    margin-right: 20%;
-
+    position: relative;
+    width: 35em;
 }
 .descripcionProducto2 {
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
-    width: auto;
-    margin-left: 10%;
+    position: relative;
 }
 .descripcionProducto2 h1{
     color: #111;
     font-family: Raleway;
-    font-size: 3rem;
+    font-size: 3em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -181,7 +160,7 @@ body{
 .descripcionProducto2 p{
     color: #4F4F4F;
     font-family: Raleway;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -192,8 +171,8 @@ body{
     width: 90%;
 }
 .descripcionProducto2 button{
-    width: 17rem;
-    height: 65px;
+    width: 13em;
+    height: 3em;
     flex-shrink: 0;
     border-radius: 50px;
     background: #30343F;
@@ -204,34 +183,29 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 1.2rem;
+    margin-top: 1.2em;
 }
 /*-------------------------------------------------------------------*/
 
 .producto3 {
-    display: grid;
-    grid-auto-columns: 65% 35%;
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    width: auto;
-}
-.imgProducto3{
-    grid-column: 2 / 2;
-    grid-row: 3 / 3;
+    justify-content: center;
 }
 .imgProducto3 img{
-    height: 30rem;
+    position: relative;
+    width: 35em;
   
 }
 .descripcionProducto3 {
-    position: absolute;
-    grid-column: 1 / 2;
-    grid-row: 3 / 3;
-    width: 40%;
+    position: relative;
+   
 }
 .descripcionProducto3 h1{
     color: #111;
     font-family: Raleway;
-    font-size: 3rem;
+    font-size: 3em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -241,7 +215,7 @@ body{
 .descripcionProducto3 p{
     color: #4F4F4F;
     font-family: Raleway;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -252,8 +226,8 @@ body{
     width: auto;
 }
 .descripcionProducto3 button{
-    width: 17rem;
-    height: 65px;
+    width: 13em;
+    height: 3em;
     flex-shrink: 0;
     border-radius: 50px;
     background: #30343F;
@@ -277,11 +251,12 @@ body{
 .nuevosLanzamientosProductos{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    
 }
 #etiquetaNuevo { 
-    width: 81.184px;
-    height: 30px;
+    width: 5em;
+    height: 1.9em;
     background: #FF3333;
     color: #FFF;
     display: flex;
@@ -299,20 +274,19 @@ body{
     justify-content: flex-end;
 }
 .lanzamientosImg img{
-    width: 20rem;
+    width: 17em;
 
 }
 .lanzamientosProductos1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    margin-bottom: 2em;
 }
 .lanzamientosProductos2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
 }
 .lanzamientosProductos3{
     display: flex;
@@ -341,7 +315,7 @@ body{
 .nuevosLanzamientos p{
     color:#333;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: .9rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -383,24 +357,22 @@ body{
         width: auto;
         margin-left: 10%;
         margin-right: 10%;
-        height: 86rem;
+        
 
     }
     .producto1 {
-        grid-template-columns: 100%;
-        grid-template-rows: auto;
-        height: 15rem;
+        flex-wrap: wrap;
     }
-    .imgProducto1{
-        grid-column: 1 / 1;
-        grid-row: 2 / 2;
-    }
+  
     .imgProducto1 img{
-        height: 15rem;
+        width: 100%;
     }
     .descripcionProducto1{
         width: 80%;
-        margin-top: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .descripcionProducto1 h1{
         font-size: 1.5rem;
@@ -420,25 +392,17 @@ body{
         font-size: .7rem;
     }
     .producto2 {
-        grid-template-columns: 100%;
-        grid-template-rows: auto;
-        height: 25rem;
-        margin-top: 13rem;
-    }
-    .imgProducto2{
-        grid-column: 1 / 1;
-        grid-row: 1/ 1;
-     
+        flex-wrap: wrap;
     }
     .imgProducto2 img{
-        height: 15rem;
+        width: 100%;
     }
     .descripcionProducto2{
-        width: 100%;
-        margin-top: 2rem;
-        grid-column: 1 / 1;
-        grid-row: 2/ 2;
-        margin-left: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .descripcionProducto2 h1{
         font-size: 1.5rem;
@@ -456,21 +420,17 @@ body{
         font-size: .7rem;
     }
     .producto3 {
-        grid-template-columns: 100%;
-        grid-template-rows: auto;
-        height: 20rem;
-    }
-    .imgProducto3{
-        grid-column: 1 / 1;
-        grid-row: 3/ 3;
-     
+        flex-wrap: wrap;
     }
     .imgProducto3 img{
-        height: 15rem;
+        width: 100%;
     }
     .descripcionProducto3{
-        width: 100%;
-        margin-top: 28rem;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .descripcionProducto3 img{
         width: 80%;
@@ -490,8 +450,21 @@ body{
        /* ultimos Lanzamientos.......................................*/
   
     .nuevosLanzamientos h1{
+        margin-top: 2em;
         font-size: 1.7rem;
         text-align: center;
+    }
+    .nuevosLanzamientosProductos{
+        flex-wrap: wrap;
+    }
+    .lanzamientosImg{
+        
+    }
+    .nuevosLanzamientosProductos1{
+        position: absolute;
+    }
+    .etiquetaNuevo{
+        
     }
 
 }

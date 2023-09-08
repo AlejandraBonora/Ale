@@ -178,7 +178,15 @@ footer p{
         width: 20rem;
         height: auto;
         padding: .6rem 1.5rem;
-    
+    }
+    .selectShop{
+        font-size: .9em;
+    }
+    .menuHeader-link{
+        font-size: .9em;
+    }
+    .menuHeader-link img{
+        width: 2em;
     }
     footer{
         width: auto;
