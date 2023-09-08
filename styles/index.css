@@ -363,7 +363,6 @@ body{
     .producto1 {
         flex-wrap: wrap;
     }
-  
     .imgProducto1 img{
         width: 100%;
     }
@@ -457,14 +456,8 @@ body{
     .nuevosLanzamientosProductos{
         flex-wrap: wrap;
     }
-    .lanzamientosImg{
-        
-    }
     .nuevosLanzamientosProductos1{
         position: absolute;
-    }
-    .etiquetaNuevo{
-        
     }
 
 }
