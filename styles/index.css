@@ -77,8 +77,8 @@ body{
 /*Seccion Productos --------------------------------------*/
 
 .productos{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     
 }
 .producto1 {  
@@ -115,7 +115,7 @@ body{
     width: 70%;
 }
 .descripcionProducto1 img{
-    width: 100%;
+    width: 33em;
    
 }
 .descripcionProducto1 button{
@@ -168,7 +168,7 @@ body{
     width: 70%;
 }
 .descripcionProducto2 img{
-    width: 90%;
+    width: 33em;
 }
 .descripcionProducto2 button{
     width: 13em;
