@@ -83,8 +83,7 @@ footer{
     flex-shrink:0;
     background: #30343F;
     margin-bottom: 0;
-    border: 0;
-    
+    border: 0;    
 }
 .footerUsuario{
     width: auto;
@@ -94,7 +93,6 @@ footer{
     align-items: center;
     margin-left: 3rem;
     margin-right: 3rem;
-
 }
 .navFooter a{
     text-decoration: none;
@@ -127,52 +125,51 @@ footer p{
 }
 @media screen and (max-width:768px){
     
-#cabeceraUsuario { 
-    width: auto;
-    height: 12rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;    
-}
-.logoMenu{
-    width: 25rem;
-    height: auto;
-    padding: .6rem 1.5rem;
+    #cabeceraUsuario { 
+        width: auto;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;    
+    }
+    .logoMenu{
+        width: 25rem;
+        height: auto;
+        padding: .6rem 1.5rem;
 
-}
-.menuHeader-link {
-   font-size: 1rem;
-}
-.selectShop{
+    }
+    .menuHeader-link {
     font-size: 1rem;
-}
-footer{
-    width: auto;
-    height: 11rem;        
+    }
+    .selectShop{
+        font-size: 1rem;
+    }
+    footer{
+        width: auto;
+        height: 11rem;        
+        
+    }
+    .footerUsuario{
+        height: 8rem;
+    }
+    .navFooter a{
     
-}
-.footerUsuario{
-    height: 8rem;
-}
-.navFooter a{
- 
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: .5rem;
-}
-.logoFooter img{
-    width: 5rem;
-    margin-top: .5rem;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: .5rem;
+    }
+    .logoFooter img{
+        width: 5rem;
+        margin-top: .5rem;
 
-}
-footer p{
+    }
+    footer p{
 
-    font-size: .9rem;   
-}
-
+        font-size: .9rem;   
+    }
 }
 @media screen and (max-width:480px){
     

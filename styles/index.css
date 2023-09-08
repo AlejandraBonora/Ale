@@ -111,12 +111,10 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 0;
-    
+    margin-top: 0;    
 }
 .descripcionProducto1 img{
-    width: 22em;
-   
+    width: 22em;  
 }
 .descripcionProducto1 button{
     width: 9rem;
@@ -359,8 +357,6 @@ body{
         width: auto;
         margin-left: 10%;
         margin-right: 10%;
-        
-
     }
     .producto1 {
         flex-wrap: wrap;
@@ -458,10 +454,10 @@ body{
         text-align: center;
     }
     .nuevosLanzamientosProductos{
-        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
     }
-    .nuevosLanzamientosProductos1{
+    .nuevosLanzamientosProductos1 img p {
         position: absolute;
     }
-
 }
