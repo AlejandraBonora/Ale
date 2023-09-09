@@ -13,27 +13,26 @@ body{
 }
 .imgBanner img{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background-repeat: no-repeat;
     object-position: center 80%;
     object-fit: cover;
     filter: blur(.19rem);
-    filter: brightness(60%);
+    filter: brightness(55%);
 }
 .descripcionBanner{
     position: absolute;
-    margin-left: 1.5em;
+    margin-left: 10rem;
     transform: translate(-1%, -1%);
     z-index: 1;
 }
 .descripcionBanner h1{
     color: #FFF;
     font-family: Raleway;
-    font-size: 1.5em;
+    font-size: 2.7rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 2em;
     margin-bottom: 0;
     padding-bottom: 0;
     border: 0;
@@ -42,26 +41,24 @@ body{
 .descripcionBanner p {
     color: #FFF;
     font-family: Raleway;
-    font-size: 1em;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 3em;
     margin-top: auto;
 }
 .descripcionBanner button {
-    width: 7rem;
-    height: 1.7rem;
+    width: 11rem;
+    height: 2.5rem;
     flex-shrink: 0;
     border-radius: 3rem;
     background: #FFF;
     border-color: #FFF;
     border: none;
-    margin-left: 3rem;
     margin-top: 1.5rem;
     color: #111;
     font-family: Inter;
-    font-size: .8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: normal; 
 }
@@ -77,8 +74,9 @@ body{
 /*Seccion Productos --------------------------------------*/
 
 .productos{
-    margin-left: 30%;
-    margin-right: 30%;   
+    margin-left: 20%;
+    margin-right: 20%;  
+   
 }
 .producto1 {  
     display: flex;
@@ -88,16 +86,16 @@ body{
 }
 .imgProducto1 img{
     position: relative;
-    width: 20em;
+    width: 30em;
 }
 .descripcionProducto1 {
     position: relative;
-    width:80%  
+    width:45%; 
 }
 .descripcionProducto1 h1{
     color: #111;
     font-family: Raleway;
-    font-size: 1.5em;
+    font-size: 2.3em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -107,25 +105,25 @@ body{
 .descripcionProducto1 p{
     color: #4F4F4F;
     font-family: Raleway;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 0;    
 }
 .descripcionProducto1 img{
-    width: 22em;  
+    width: 40em;  
 }
 .descripcionProducto1 button{
-    width: 9rem;
-    height: 2rem;
+    width: 12rem;
+    height: 3rem;
     flex-shrink: 0;
     border-radius: 50px;
     background: #30343F;
     border: none;
     color: #FFF;
     font-family: Inter;
-    font-size: .8rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -140,7 +138,7 @@ body{
 }
 .imgProducto2 img{
     position: relative;
-    width: 20em;
+    width: 30em;
 }
 .descripcionProducto2 {
     position: relative;
@@ -149,7 +147,7 @@ body{
 .descripcionProducto2 h1{
     color: #111;
     font-family: Raleway;
-    font-size: 1.5em;
+    font-size: 2.3em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -159,26 +157,26 @@ body{
 .descripcionProducto2 p{
     color: #4F4F4F;
     font-family: Raleway;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 0;
-    
+    margin-top: 0; 
+    width:45%;
 }
 .descripcionProducto2 img{
-    width: 22em;
+    width: 45em;  
 }
 .descripcionProducto2 button{
-    width: 9rem;
-    height: 2rem;
+    width: 12rem;
+    height: 3rem;
     flex-shrink: 0;
     border-radius: 50px;
     background: #30343F;
     border: none;
     color: #FFF;
     font-family: Inter;
-    font-size: .8rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -194,46 +192,48 @@ body{
 }
 .imgProducto3 img{
     position: relative;
-    width: 20em;
+    width: 30em;
+    margin-left: 3rem;
   
 }
 .descripcionProducto3 {
     position: relative;
-    width: 80% 
+    width: 40%;   
 }
 .descripcionProducto3 h1{
     color: #111;
     font-family: Raleway;
-    font-size: 1.5em;
+    font-size: 2.3em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
 .descripcionProducto3 p{
     color: #4F4F4F;
     font-family: Raleway;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 0;
+    margin-top: 0;  
     
 }
 .descripcionProducto3 img{
-    width: 22em;
+    width: 40em;   
 }
 .descripcionProducto3 button{
-    width: 9rem;
-    height: 2rem;
+    width: 12rem;
+    height: 3rem;
     flex-shrink: 0;
     border-radius: 50px;
     background: #30343F;
     border: none;
     color: #FFF;
     font-family: Inter;
-    font-size: .8rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -250,7 +250,7 @@ body{
 .nuevosLanzamientos h1{
     color: #111;
     font-family: Raleway;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -264,15 +264,15 @@ body{
     
 }
 #etiquetaNuevo { 
-    width: 3rem;
-    height: 1.2rem;
+    width: 5rem;
+    height: 2rem;
     background: #FF3333;
     color: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Inter;
-    font-size: .5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -283,14 +283,14 @@ body{
     justify-content: flex-end;
 }
 .lanzamientosImg img{
-    width: 12em;
+    width: 20rem;
 
 }
 .lanzamientosProductos1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 .lanzamientosProductos2{
     display: flex;
@@ -307,7 +307,7 @@ body{
 .nuevosLanzamientos h2{
     color: #111;
     font-family: Inter;
-    font-size: .7rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -315,7 +315,7 @@ body{
 .nuevosLanzamientos p{
     color:#333;
     font-family: Inter;
-    font-size: .5rem;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -323,7 +323,7 @@ body{
 .nuevosLanzamientos span{
     color: #1D84B5;
     font-family: Inter;
-    font-size: .45rem;
+    font-size: .9rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -336,12 +336,16 @@ body{
         height: 15em;
     }
     .descripcionBanner{
-        width: 85%;
-        margin: 0;
+        width: auto;
+        display: flex;
         text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
     }
     .descripcionBanner h1{
         font-size: 2rem;
+
     }
     .descripcionBanner p {
         font-size: 1.1rem;
@@ -422,6 +426,7 @@ body{
     }
     .imgProducto3 img{
         width: 100%;
+        margin-left: 0;
     }
     .descripcionProducto3{
         width: 80%;
@@ -450,7 +455,7 @@ body{
   
     .nuevosLanzamientos h1{
         margin-top: 2em;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     .nuevosLanzamientosProductos{
@@ -459,5 +464,11 @@ body{
     }
     .nuevosLanzamientosProductos1 img p {
         position: absolute;
+ 
+    }
+    .lanzamientosDescripcion p{
+        font-size: .9rem;
+        
+
     }
 }
