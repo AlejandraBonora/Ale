@@ -74,9 +74,8 @@ body{
 /*Seccion Productos --------------------------------------*/
 
 .productos{
-    margin-left: 20%;
-    margin-right: 20%;  
-   
+    margin-left: 15%;
+    margin-right: 15%;  
 }
 .producto1 {  
     display: flex;
@@ -336,7 +335,7 @@ body{
         height: 15em;
     }
     .descripcionBanner{
-        width: auto;
+        
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -349,6 +348,7 @@ body{
     }
     .descripcionBanner p {
         font-size: 1.1rem;
+        width: 80%;
     }
     .descripcionBanner button {
         width: 10rem;
