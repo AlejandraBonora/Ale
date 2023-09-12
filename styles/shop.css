@@ -1,7 +1,7 @@
 main{
     display: grid;
     grid-area: auto;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
 
 }
 .filtros{
@@ -76,8 +76,12 @@ main{
 }
 .nuevosLanzamientosProductos{
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
+    margin-top: 3rem;
+    
 }
 #etiquetaNuevo { 
     width: 81.184px;
@@ -107,6 +111,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 20rem;
+
 }
 .lanzamientosProductos2{
     display: flex;
@@ -319,6 +324,7 @@ main{
     }
     .nuevosLanzamientosProductos{
         justify-content: center;
+        margin-top: 3rem;
     }
     .lanzamientosImg img{
         width: 13.5rem;
