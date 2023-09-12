@@ -79,7 +79,7 @@ a:active {
 
 footer{
     width: auto ;
-    height: 12rem;        
+    height: 13rem;        
     flex-shrink:0;
     background: #30343F;
     margin-top: 2rem;
@@ -93,6 +93,7 @@ footer{
     align-items: center;
     margin-left: 4rem;
     margin-right: 4rem;
+    padding-top: 2rem;
 }
 .navFooter a{
     text-decoration: none;
