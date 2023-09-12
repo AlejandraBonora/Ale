@@ -333,7 +333,9 @@ body{
 
 
 @media screen and (max-width:480px){
-
+    #banner{
+        align-items: center;
+    }
     .imgBanner img{
         height: 15em;
     }
