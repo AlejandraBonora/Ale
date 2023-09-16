@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/header-footer.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/carrito.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -22,7 +23,12 @@
         <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
         <div class="menuHeader"></div>
         <nav class="navHeaderUsuario">         
-            <a class="menuHeader-link" href="shop.html">SHOP<svg class="iconoDesplegableMenu" focusable="false"></svg></a>          
+            <select class="selectShop" name="radio" id="shopSelect">
+                <option value="shop" >SHOP</option>
+                <option value="pokemon">POKEMON</option>
+                <option value="starwars">STARWARS</option>
+                <option value="harrypotter">HARRY POTTER</option>  
+            </select>         
             <a class="menuHeader-link" href="#">CONTACTO</a>
             <a class="menuHeader-link" href="admin/login.html">LOGIN</a>
             <a class="menuHeader-link" href="carrito.html"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
@@ -32,25 +38,41 @@
     <main>
         <section id="carrito">
             <h1>CARRITO DE COMPRAS</h1>
-            <section class="encabezadoCarrito">
-                <label for="title">
-                    <span>DETALLE DE PRODUCTO</span>
-                    <span>CANTIDAD</span>
-                    <span>TOTAL</span>
-                </label>
-            </section>
-            <section class="productoCarrito">
-                <label for="item"><img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby yoda">
-                <div class="descripcionProductoCarrito">
-                    <h1>BABY YODA BLUEBALL</h1>
-                    <p>STAR WARS</p>
-                    <p>$1799,99</p>
+            <div class="encabezadoCarrito" id="decoracionTablaCarrito">
+                    <p>DETALLE DE PRODUCTO</p>
+                    <p>CANTIDAD</p>
+                    <p>TOTAL</p>
+                    <p></p>
+                 
+            </div>
+            <div class="productoCarrito" id="decoracionTablaCarrito">
+                <div class="imgDescripcionCarrito">
+                    <img class="imgCompraCarrito" src="multimedia/star-wars/baby-yoda-1.webp" alt="baby yoda">
+                    <div class="descripcionProductoCarrito">
+                        <h2 class="tituloDescripcionProductoCarrito">BABY YODA BLUEBALL</h2>
+                        <p class="primerParrafoDescripcionProductoCarrito">STAR WARS</p>
+                        <p class="segundoParrafoDescripcionProductoCarrito">precio: $ 1799,99</p>
+                    </div>
+                </div>             
+                <div class="cantidadProductoCarrito">
+                    <div>
+                        <input class="imputCantidadProductoCarrito" type="number" placeholder="1">
+                    </div>
+                    <div class="botoneraCantidadProducto">
+                        <button class="botonCantidadProductoCarrito" type="button">+</button>
+                        <button class="botonCantidadProductoCarrito" type="button">-</button>
+                    </div>
                 </div>
-                <input type="number" placeholder="1">
-                <span>$1799,99</span>
-                <img src="multimedia/icons/delete-cart.svg" alt="icono borrar item">
-            </label>
+                <div>
+                    <p class="precioProductoCarrito">1799,99</p>
+                </div>
+                <div>
+                    <img class="iconoEliminarCarrito" src="multimedia/icons/delete-cart.svg" alt="icono borrar item">
+                </div>
+            </div>
         </section>
+
+
         <section class="resumenCarrito">
                 <h1>RESUMEN</h1>
                 <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
@@ -91,6 +113,6 @@
             </div>
         </div>
         <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
-    </footer>  
+      </footer>  
 </body>
 </html>

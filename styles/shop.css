@@ -1,10 +1,11 @@
 main{
     display: grid;
     grid-area: auto;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
 
 }
 .filtros{
+    width: 80%;
     grid-column: 1 / 2;
     color: #111;
     font-family: Inter;
@@ -18,14 +19,18 @@ main{
 }
 .buscador{
     padding: 0 0 1.5rem 0;
+    width: 100%;
 }
 .inputFiltro{
     border-radius: 6px;
     border: 2px solid #30343F;
-    height: 2rem;
-    width: 12rem;
+    height: 2.5rem;
+    width: 15rem;
     margin-top: 0.6rem;
     text-align: justify;
+}
+h2{
+    font-size: 1.7rem;
 }
 .categoria{
     padding: 0 0 1.5rem 0;
@@ -76,11 +81,11 @@ main{
 }
 .nuevosLanzamientosProductos{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
+    justify-content: space-between;
     
 }
 #etiquetaNuevo { 
@@ -106,7 +111,7 @@ main{
     width: 20rem;
 
 }
-.lanzamientosProductos1{
+.lanzamientosProducto1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,16 +282,29 @@ main{
         display: block;
     }
     .filtros{
+        width: 94%;
         display: flex;
-        margin-left: 1%;
+        margin: 3%;
         flex-wrap: wrap;
+        align-content: center;
+        align-items: flex-start;
+    }
+    .buscador{
+        width: auto;
+        padding: 0;
     }
     .inputFiltro{
         width: 5rem;
+        height: 1.5rem;
         font-size: .6rem;
+    }
+    h2{
+        font-size: .6rem;
+        width: 5rem;
     }
     .inputFiltroMaxMin{
         width: 2rem;
+        height: 1.5rem;
         font-size: .6rem;
     }
     .filtrar{
@@ -294,18 +312,30 @@ main{
         margin-top: 1rem;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: initial;
+        
+    }
+    .tituloFiltrar {
+        font-size: .6rem;
+        width: 5rem;
+        
     }
     .tituloYLabels{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 17rem;
+        
     }
     .filtrar label{  
         margin-bottom: .6rem;
         border: none;
         height: 2rem;
+        font-size: .55rem;
+        justify-content: left;
+    }
+    .checkboxFiltro input{
+        margin-left: .5rem;
+        
     }
     .nuevosLanzamientos {
         margin: 1.2rem;
@@ -325,6 +355,8 @@ main{
     .nuevosLanzamientosProductos{
         justify-content: center;
         margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
     }
     .lanzamientosImg img{
         width: 13.5rem;

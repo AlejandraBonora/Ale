@@ -1,0 +1,255 @@
+#producto{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.producto {  
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.descripcionProductoItem{
+    margin-left: 7rem;
+}
+.subTituloItem{
+    color: var(--Gray-1, #333);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.2rem;
+}
+.tituloItem{
+    color: #111;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0.2rem;
+}
+.descripcionItem{
+    color: var(--Gray-1, #333);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+.precioItem{
+    color: #333;
+    font-family: Inter;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}
+.labelInput{
+    display: flex;
+    margin-top: 1.6rem;
+}
+.inputCantidadItem{
+    width: 6rem;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 1rem;
+    border: 2px solid #cfcaca;
+}
+.flexBotonMasMenos{
+    display: flex;
+    flex-direction: column;
+    margin-left: .7rem;
+    margin-right: 1.5rem;
+}
+.botonItemCarritoMas{
+    background: #4F4F4F;
+    width: 1.3rem;
+    height: 1.3rem;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFF;
+    margin-bottom: .2rem;
+}
+.botonItemCarritoMenos{
+    background: #4F4F4F;
+    width: 1.3rem;
+    height: 1.3rem;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFF;
+
+}
+.botonItemCarrito{
+    background: #F33;
+    width: 12rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.labelPagos{
+    display: flex;
+    text-decoration: none;
+    margin-top: 1.6rem;
+
+}
+.pagosItemLink{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0.2rem;
+}
+.pagosItemLink:link {
+    color: #1D84B5;
+    font-weight: 500;
+}
+.pagosItemLink:visited {
+    color: #6394aa;
+}
+.pagosItemLink:hover {
+    color: #2b5366;
+}
+.pagosItemLink:active {
+    color: #1D84B5;
+}
+.pagosItem{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0.2rem;
+}
+/*Poductos Relacionados................................................................*/
+.productosRelacionados{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+
+}
+.productosRelacionadosTitulo{
+    color: #111;
+    font-family: Raleway;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.productosRelacionadosProductos{
+    display: flex;
+    justify-content: space-between;  
+}
+#etiquetaNuevo { 
+    width: 5rem;
+    height: 2rem;
+    background: #FF3333;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+}
+.botonProductoAnterior{
+    font-size: 1.2rem;
+    color: #333;
+    font-family: inter;
+    font-weight: 600;
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    margin-top: 10rem;
+    margin-right: 19rem;
+    background-color: #fffefe;
+    border: 1px solid rgb(212, 209, 209);
+    border-radius:15%;
+}
+.botonProductoPosterior{
+    font-size: 1.2rem;
+    color: #333;
+    font-family: inter;
+    font-weight: 600;
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 19rem;
+    background-color: #fffefe;
+    border: 1px solid rgb(212, 209, 209);
+    border-radius:15%;
+}
+.lanzamientosImg{
+    display: flex;
+    justify-content: flex-end;
+}
+.lanzamientosImg img{
+    width: 20rem;
+
+}
+.lanzamientosProductos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.lanzamientosProductos2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lanzamientosProductos3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.subtituloProductos{
+    color:#333;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: .5rem;
+}
+.tituloProducto{
+    color: #111;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+   
+}
+.subtituloProductosCuotas{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
