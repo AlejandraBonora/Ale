@@ -1,3 +1,6 @@
+main{
+    height: 30rem;
+}
 .buscadorAdmin{
     display: flex;
     margin-left: 5%;
@@ -67,10 +70,64 @@
     font-weight: 900;
     line-height: normal;
     letter-spacing: 0.96px;
+    text-align: left;
+}
+.idTitulo{
+    width: 5%;
+}
+.codigoTitulo{
+    width: 25%;
+    
+}
+.productoTitulo{
+    width: 30%;
+}
+.categoriaTitulo{
+    width: 20%;
+}
+.vacio{
+    width: 20%;
 }
 .productoIngresadoAdmin{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
-    justify-content: space-between;
+    align-items: center;
+}
+.textoProductoIgresado{
+    margin-top: 1rem;
+    display: flex;  
+    width: 100%; 
+    text-align: left;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.96px;
+}
+.idIngresado{
+    width: 6%;
+}
+.codigoIngresado{
+    width: 30.5%;
+}
+.productoIngresado{
+    width: 36.7%;
+}
+.categoriaIngresado{
+    width: 20%;
+}
+.imgProductoIgresado{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+.lapizEditar{
+    width: 1.7rem;
+    margin-right: 1rem;
+}
+.trashAdmin{
+    width: 1.8rem;
 }
