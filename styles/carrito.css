@@ -15,7 +15,7 @@
 #carrito h1{
     color: #111;
     font-family: Raleway;
-    font-size: 46px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -60,7 +60,7 @@
 .tituloDescripcionProductoCarrito{
     color: #111;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -136,17 +136,15 @@
 .tituloResumenCarrito{
     color: #111;
     font-family: Raleway;
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-
-
 }
 .lineaNaranja{
     border: .15rem solid #FF3333;  
-    width: 50%;
+    width: 41%;
     height: 0;
 }
 .tituloLineaResumen {
@@ -158,7 +156,6 @@
 .tablaResumenCarrito{
     width: 26rem;
 }
-
 .resumenCarrito{
     display: flex;
     justify-content: flex-end;

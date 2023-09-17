@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <title>CARRITO</title>
+</head>
+<body>
+    <header id="cabeceraUsuario">
+        <a href="index.html"><img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
+        <div class="menuHeader"></div>
+        <nav class="navHeaderUsuario">         
+            <select class="selectShop" name="radio" id="shopSelect">
+                <option value="shop" >SHOP</option>
+                <option value="pokemon">POKEMON</option>
+                <option value="starwars">STARWARS</option>
+                <option value="harrypotter">HARRY POTTER</option>  
+            </select>         
+            <a class="menuHeader-link" href="#">CONTACTO</a>
+            <a class="menuHeader-link" href="admin/login.html">LOGIN</a>
+        <div class="carritoConContador">
+            <p class="contadorCarrito">1</p>
+            <a class="menuHeader-link" href="carrito.html"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a> 
+        </div>   
+        </nav>
+        </div>      
+    </header>
+    <main>
+        <form>
+            <label  for="nombreapellido">Nombre y Apellido</label>
+                <input type="text"  id="nombreapellido" class="input-padron" required>
+            <label for="correoelectronico">Correo electrónico</label>
+                <input type="email"  id="correoelectronico"class="input-padron"required placeholder="email@dominio.com">
+            <label for="telefono">Teléfono</label>
+                <input type="tel"  id="telefono"class="input-padron"required placeholder="(XX) XXXX XXXX">
+            <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje"class="input-padron"> </textarea required>             
+               <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+                    <div class="seccionLabelContactar">
+                        <label for="radio-email"> 
+                            <input type="radio" name="contacto" value="email"id="radio-email"> Email
+                        </label>    
+                        <label for="radio-telefono">
+                            <input type="radio" name="contacto" value="telefono"id="radio-telefono">
+                            Teléfono
+                        </label> 
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"id="radio-whatsapp" checked> Whatsapp
+                        </label>
+                    </div>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox"checked>  ¿Le gustaria recibir novedades de la FunkoShop?</label>
+                    <input type="submit" value="Enviar" class="enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="footerUsuario">
+            <div class="navFooter">
+                <a href="shop.html">SHOP</a>
+                <a href="admin/login.html">INGRESAR</a>
+                <a href="admin/register.html">REGISTRARSE</a>
+                <a href="#">CONTACTO</a>
+            </div>
+            <div class="logoFooter">
+                <img src="multimedia/branding/isotype.svg" alt="Logo Funkoshop">
+            </div>
+        </div>
+        <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>  
+</body>
+</html>
