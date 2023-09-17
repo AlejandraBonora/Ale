@@ -26,30 +26,30 @@
     justify-content: flex-start;
     color: #000;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: 1rem;
     align-items: center;
-    width: 100%;
-    padding-left: 10%;
-    gap: 15%;  
+    text-align: end;
+    
 }
 .encabezadoCarrito p{
-    margin-left: 10%;
+    width: 30%;
 }
 .productoCarrito{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+   
 }
 .imgDescripcionCarrito{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 3%;
+    margin-left: 2%;
+    width: 30%;
 }
 .imgCompraCarrito{
     width: 7.3rem;
@@ -86,7 +86,8 @@
 .cantidadProductoCarrito{
     display: flex;
     align-items: center;
-    margin-left: 10rem;
+    justify-content: end;
+    width: 30%;
 }
 .imputCantidadProductoCarrito{
     width: 3rem;
@@ -111,12 +112,17 @@
 .precioProductoCarrito{
     color: #333;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 10rem;
+    width: 30%;
+    display: flex;
+    justify-content: end;
 }
 .iconoEliminarCarrito{
-    margin-left: 10rem;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    padding: 2%;
 }
