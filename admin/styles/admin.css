@@ -1,0 +1,76 @@
+.buscadorAdmin{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2rem;
+}
+.imgBuscarLupa{
+    width: 2rem;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+.inputBuscarLupa{
+    width: 35%;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 2px solid #30343F;
+    
+}
+/*Seccion tabla....................................................*/
+.tituloTablaAdmin{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.tituloPrincipalTabla{
+    color: #1F1F1F;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
+.subtTituloBoton{
+    display: flex;
+    align-items: center;
+}
+.tituloSecundarioTabla{
+    color: #1F1F1F;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+.imgBotonAgregar{
+    width: 2.5rem;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+/*interior tabla..................................*/
+.tituloProductoTabla{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2rem;
+    justify-content: space-between;
+    color: #1F1F1F;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+.productoIngresadoAdmin{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
