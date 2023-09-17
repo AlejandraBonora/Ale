@@ -31,7 +31,10 @@
             </select>         
             <a class="menuHeader-link" href="#">CONTACTO</a>
             <a class="menuHeader-link" href="admin/login.html">LOGIN</a>
-            <a class="menuHeader-link" href="carrito.html"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a>    
+        <div class="carritoConContador">
+            <p class="contadorCarrito">1</p>
+            <a class="menuHeader-link" href="carrito.html"><img src="multimedia/icons/cart-icon.svg" alt="carrito"></a> 
+        </div>   
         </nav>
         </div>      
     </header>
@@ -42,8 +45,7 @@
                     <p>DETALLE DE PRODUCTO</p>
                     <p>CANTIDAD</p>
                     <p>TOTAL</p>
-                    <p></p>
-                 
+                    <p></p>                
             </div>
             <div class="productoCarrito" id="decoracionTablaCarrito">
                 <div class="imgDescripcionCarrito">
@@ -74,31 +76,36 @@
 
 
         <section class="resumenCarrito">
-                <h1>RESUMEN</h1>
-                <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
-                <table class="tablaResumenCarrito">
-                    <tr>
-                        <th>CANTIDAD DE ELEMENTOS
-                            <td class="elementosCarrito">3</td>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>SUBTOTAL
-                            <td class="subtotalCarrito">$ 5.399,97</td>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>ENVIO 
-                            <td class="envioCarrito">$ 0,00</td>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>TOTAL 
-                            <td class="totalCarrito">$ 5.399,97</td>
-                        </th>
-                    </tr>
-                </table>
-                <button class="buttonPagarCarrito" >IR A PAGAR</button>
+            <div class="cajaResumen">
+                <div class="tituloLineaResumen">
+                    <h2 class="tituloResumenCarrito">RESUMEN</h2>
+                    <div class="lineaNaranja"></div>
+                </div>
+                <div class="tablaResumenCarrito" id="decoracionTablaCarrito">
+                    <div class="elementosCarrito" id="posicionResumen">
+                        <p class="subTituloResumen">CANTIDAD DE ELEMENTOS</p>
+                        <p class="cantidadElementosResumen" id="resumenNumeroEstilo">3</p>
+                    </div>
+                    <div class="subtotalCarrito" id="posicionResumen">
+                        <p class="subTituloResumen">SUBTOTAL</p>
+                        <p class="subtotalResumen" id="resumenNumeroEstilo">$ 5.399,97</p>
+                    </div>
+                    <div class="envioCarrito" id="posicionResumen">
+                        <p class="subTituloResumen" >ENVIO</p>
+                        <p class="envioResumen" id="resumenNumeroEstilo">$ 0,00</p>
+                    </div>
+                    <div class="lineaTotal"></div>
+                    <div class="totalCarrito" id="posicionResumen">    
+                        <p class="tituloTotalResumen">TOTAL</p>
+                        <p class="totalResumen" id="estiloNumeroTotal">$ 5.399,97</p>
+                    </div>
+                </div>
+                <div class="botonPagarCarrito">
+                    <button type="button">IR A PAGAR</button>
+                </div>
+                
+            </div>
+            
         </section>      
     </main>
     <footer>
@@ -106,6 +113,7 @@
             <div class="navFooter">
                 <a href="shop.html">SHOP</a>
                 <a href="admin/login.html">INGRESAR</a>
+                <a href="admin/register.html">REGISTRARSE</a>
                 <a href="#">CONTACTO</a>
             </div>
             <div class="logoFooter">
@@ -113,6 +121,6 @@
             </div>
         </div>
         <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
-      </footer>  
+    </footer>  
 </body>
 </html>

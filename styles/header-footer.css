@@ -40,13 +40,14 @@ a:active {
 }
 .contadorCarrito{
     position: absolute;
+    color: #FFF;
     background: #FF4848;
     width: 1.2rem;
     height: 1.2rem;
     border-radius: 90rem;
     text-align: center;
     font-size: .9rem;
-    margin-left: 1.6rem;
+    margin-left: 1.2rem;
     font-family: inter;
 }
 .menuHeader-link {
