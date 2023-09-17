@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/header-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>ADMIN</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="cabeceraAdmin">
-                <a href="index.html"><img  class="logoMenu" src="../multimedia/branding/logo_light_horizontal.svg" alt="logo"></a>
-                <ul class="menuHeaderAdmin">
-                    <a href="../shop.html">VER TIENDA</a>
-                    <a href="admin.html">ADMIN</a>
-                    <a href="login.html">SALIR</a>
-                </ul>
-            </div>
+    <header id="cabeceraUsuario">
+        <a href="index.html">
+            <img  class="logoMenu" src="../multimedia/branding/logo_light_horizontal.svg" alt="logo">
+        </a>
+        <nav class="navHeaderUsuario">
+                    <a class="menuHeader-link" href="../shop.html">VER TIENDA</a>
+                    <a class="menuHeader-link" href="admin.html">ADMIN</a>
+                    <a class="menuHeader-link" href="login.html">SALIR</a>
         </nav>
     </header>
     <main>
@@ -52,11 +60,17 @@
         
     </main>
     <footer>
-        <a href="../shop.html">SHOP</a>
-        <a href="#">REGISTRARSE</a>
-        <a href="#">INGRESAR</a>
-        <a href="#">CONTACTO</a>
-        <img src="../multimedia/branding/isotype.svg" alt="Logo Funkoshop">
+        <div class="footerUsuario">
+            <div class="navFooter">
+                <a href="../shop.html">SHOP</a>
+                <a href="register.html">REGISTRARSE</a>
+                <a href="login.html">INGRESAR</a>
+                <a href="../contacto.html">CONTACTO</a>
+            </div>
+            <div class="logoFooter">
+                <img src="../multimedia/branding/isotype.svg" alt="Logo Funkoshop">
+            </div>
+        </div>
         <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>  
     
