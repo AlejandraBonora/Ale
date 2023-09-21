@@ -21,6 +21,12 @@
     line-height: normal;
     text-transform: uppercase;
 }
+.lineaNaranjaTitulo{
+    border: .15rem solid #FF3333;  
+    width: 30%;
+    height: 0;
+    margin-bottom: 2rem;
+}
 .encabezadoCarrito{
     display: flex;
     justify-content: flex-start;

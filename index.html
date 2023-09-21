@@ -24,7 +24,7 @@
             <img  class="logoMenu" src="multimedia/branding/logo_light_horizontal.svg" alt="logo">
         </a>
         <nav class="navHeaderUsuario">         
-            <select class="selectShop" name="radio" id="shopSelect">
+            <select class="selectShop" name="radio" id="shopSelect" onchange="direccionarPagina()">
                 <option value="shop" >SHOP</option>
                 <option value="pokemon">POKEMON</option>
                 <option value="starwars">STARWARS</option>
@@ -42,8 +42,10 @@
     <section id="banner">
         <div class="descripcionBanner">
             <h1>Nuevos Ingresos</h1>
-            <p>Descubrí el próximo Funko Pop de tu colección</p>
-            <button><a href="shop.html">SHOP</a></button> 
+                <p>Descubrí el próximo Funko Pop de tu colección</p>
+            <button>
+                <a href="shop.html">SHOP</a>
+            </button> 
         </div>
         <div class="imgBanner">
             <img src="multimedia/funkos-banner.webp" alt="banner">
@@ -57,9 +59,12 @@
             </div>
             <div class="descripcionProducto1">
                 <h1>STAR WARS & <br>THE MANDALORIAN</h1>
-                <p>Disfruta de una saga que sigue <br>agregando personajes a su coleccion.</p>
-                <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
-                <button>VER COLECCION</button>
+                    <p>Disfruta de una saga que sigue <br>agregando personajes a su coleccion.
+                    </p>
+                        <div class="lineaNaranja"></div>
+                    <a href="shop.html">
+                        <button type="button" >VER COLECCION</button>
+                    </a>
             </div> 
         </article>
         <article class="producto2">
@@ -68,9 +73,11 @@
             </div>
             <div class="descripcionProducto2">
                 <h1>POKEMON INDIGO</h1>
-                <P>Atrapa todos los que puedas y disfruta <br> de una colección llena de amigos.</P>
-                <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
-                <button>VER COLECCION</button>
+                    <p>Atrapa todos los que puedas y disfruta <br> de una colección llena de amigos.</p>
+                        <div class="lineaNaranja"></div>
+                    <a href="shop.html">
+                        <button>VER COLECCION</button>
+                    </a>
             </div>
         </article>  
         <article class="producto3">
@@ -79,9 +86,11 @@
             </div>
             <div class="descripcionProducto3" >
                 <h1>HARRY POTTER</h1>
-                <P>Revive los recuerdos de una saga llena <br>de magia y encanto.</P>
-                <img src="multimedia/icons/Linea.svg" alt="linea decorativa">
-                <button>VER COLECCION</button>
+                    <p>Revive los recuerdos de una saga llena <br>de magia y encanto.</p>
+                        <div class="lineaNaranja"></div>
+                    <a href="shop.html">
+                        <button>VER COLECCION</button>
+                    </a>
             </div>
         </article>
     </section>
@@ -92,7 +101,7 @@
             <div class="lanzamientosProducto1">
                 <div class="lanzamientosImg">
                     <p id="etiquetaNuevo">NUEVO</p>
-                    <img src="multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
+                        <img src="multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
                 </div>
                 <div class="lanzamientosDescripcion" >
                     <p>STAR WARS</p>
@@ -127,6 +136,7 @@
             </div>                    
      </div>       
     </section>
+    <script src="scripts/header.js"></script>
   </main>  
   <footer>
     <div class="footerUsuario">
