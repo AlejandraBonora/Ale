@@ -17,8 +17,8 @@ main{
     justify-content: center;
     align-items: center;
     gap: 36px;
-    margin-top: 5rem;
-    margin-bottom: 14rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
 }
 .tituloLogin{
@@ -148,4 +148,16 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+#terminosCondiciones:visited {
+    color: #0d4763;
+
+}
+
+#terminosCondiciones:hover {
+    color: #1D84B5;
+}
+
+#terminosCondiciones:active {
+    color:none;
 }
