@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/header-footer.css">
+    <link rel="stylesheet" href="styles/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -27,6 +28,7 @@
                     <a class="menuHeader-link" href="login.html">SALIR</a>
         </nav>
     </header>
+    <!--
     <main>
         <h1>CREA TU CUENTA</h1>
         <H2>Completa el formulario para ser parte del mundo de los Funkos</H2>
@@ -40,6 +42,37 @@
             <div class="botonRegistro">
                 <button id="buttonRegistro">Register</button> <input type="checkbox"> Acepto <link rel="stylesheet" href="#">Términos y Condiciones.
             </div>
+    </main>
+-->
+    <main>
+        <div id="contenedor">
+            <h1 class="tituloLogin">CREA TU CUENTA</h1>
+            <h2 class="subtituloLogin">Completa el formulario para ser parte del mundo de los Funkos</h2>
+                <div class="login">
+                    <div class="loginSubtitulos">
+                        <span class="subtituloInput">Nombre:</span>
+                        <span class="subtituloInput">Apellido:</span>
+                        <span class="subtituloInput">Email:</span>
+                        <span class="subtituloInput">Contraseña:</span>
+                        <span class="subtituloInput">Repita Contraseña:</span>
+                    </div>
+                    <div class="loginInputs">
+                        <input type="text" placeholder="John">
+                        <input type="text" placeholder="Doe">
+                        <input type="email" id="email" placeholder="johndoe@correo.com">
+                        <input type="password" id="contrasenia" >
+                        <input type="password" id="contrasenia" >
+                    </div>
+                </div>
+                <div>
+                    <button id="buttonRegistro" >Ingresar</button>          
+                        <input class="checkboxCubo" type="checkbox">
+                            <span class="checkboxRecordarme">Acepto 
+                                <a id="terminosCondiciones" href="#">Terminos y condiciones</a>
+                            </span>
+                </div>
+
+        </div>
     </main>
     <footer>
         <div class="footerUsuario">
