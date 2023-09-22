@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="styles/edit.css">
     <link rel="stylesheet" href="../styles/header-footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,37 +29,51 @@
         </nav>
     </header>
     <main>
-        <h1>EDITAR ITEM</h1>
-        <label class="edit" for="text">
-            <span>Categoría:</span>
-            <select id="selectCategoria" name="Categoría">
-                <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
-            </select>
-            <span>Licencia:</span>
-            <select id="selectLicencia" name="Licencia">
-                <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
-            </select>
-        </label>
-        <h2>Nombre del producto:</h2>
-       
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <span>SKU:</span>
-        <span>Precio:</span>
-        <span>Stock:</span>
-        <span>Descuento:</span>
-        <span>Cuotas:</span>
-            <select id="selectCuotas" name="cuotas">
-                <option  class="opcionCuotas" value="" disabled selected>3 Cuotas sin interés</option>
-            </select>
+        <h1 class="tituloCrear">EDITAR PRODUCTO</h1>
+        <div class="labelCategoriaLicencia">
+            <label class="select" for="text">
+                <span class="textoInput">Categoría:</span>
+                <select id="selectCategoria" name="Categoría">
+                    <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
+                </select>
+                <span class="textoInput">Licencia:</span>
+                <select id="selectCategoria" name="Licencia">
+                    <option  class="opcionSeleccionar" value="" disabled selected>Seleccionar</option>
+                </select>
+            </label>
+        </div>
+        <div class="nombreProducto">
+            <p class="nombreInput">Nombre del producto:</p>
+            <input class="inputNombreProducto" type="text" placeholder="Kakashi Hatake Shippuden Saga">
+        </div>
+        <div >
+            <textarea class="descripcionProducto" name="" id="" cols="70" rows="10" placeholder="Descripcion del producto"></textarea>
+        </div>
+        <div class="skuPrecioStock">
+            <p class="nombreInput">SKU:</p>
+            <input class="inputSku"  type="text" placeholder="SSK111AB001">
+            <p class="nombreInput">Precio:</p>
+            <input class="inputPrecio" type="number" placeholder="$ 0.000,00">
+            <p class="nombreInput">Stock:</p>
+            <input class="inputStock" type="number" placeholder="0">
+            </div>
+        <div class="descuentoCuotas">
+            <p class="nombreInput">Descuento:</p>
+                <input class="inputDescuento" type="number" placeholder="0%">
+            <p class="nombreInput">Cuotas:</p>
+                <select id="selectCuotas" name="cuotas">
+                    <option  class="opcionCuotas" value="" disabled selected>3 Cuotas sin interés</option>
+                </select>
+        </div>
         </label>
         <div class="elegirArchivos">
-            <span>Imágenes:</span>
-            <input type="file" name="Elegir Archivos">
+            <span class="nombreInput">Imágenes:</span>
+            <input  type="file" id="fileInput" class="inputElegirArchivo" name="Elegir Archivos">
+            <label for="fileInput" class="custom-button">Elegir archivo</label>
         </div>
         <div class="botonesCrearItem">
-            <button class="botonesCrearItem">Modificar Producto</button>
+            <button class="botonCrearItem">Modificar Producto</button>
         </div>
-
     </main>
     <footer>
         <div class="footerUsuario">
