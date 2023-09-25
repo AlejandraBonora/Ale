@@ -326,7 +326,118 @@ body{
     line-height: normal;
 }
 
+@media screen and (max-width:780px){
+    /*banner------------------------------------------------------------*/
+#banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+.descripcionBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+
+}
+
+/*Seccion Productos --------------------------------------*/
+
+.productos{
+    margin-left: 5%;
+    margin-right:5%;  
+}
+.lineaNaranja{
+    border: .125rem solid #FF3333;  
+    width: inherit;
+    height: 0;
+    margin:  1.5rem 0 1rem 0;
+}
+
+.imgProducto1 img, .producto2 img, .producto3 img{
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+}
+.descripcionProducto1 {
+    position: relative;
+    width:100%; 
+}
+.descripcionProducto1 h1,.descripcionProducto2 h1,.descripcionProducto3 h1{
+    font-size: 2rem;    
+}
+.descripcionProducto1 p, .descripcionProducto2 p, .descripcionProducto2 p{
+    font-size: 1.2rem;
+ 
+}
+
+.descripcionProducto1 button,.descripcionProducto2 button,.descripcionProducto3 button{
+    width: 9rem;
+    height: 2.5rem;
+    font-size: .8rem;
+}
+/*---------------------------------------------------------------*/
+.producto2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------------------------------------*/
+
+.producto3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* SECCION nuevos lanzamientos ------------------------------------ */
+
+.nuevosLanzamientos{
+    margin: 0 5% 0 5%;
+}
+.nuevosLanzamientos h1{
+    font-size: 2rem;
+}
+
+.lanzamientosImg{
+    display: flex;
+    justify-content: flex-end;
+}
+.lanzamientosImg img{
+    width: 15rem;
+
+}
+.lanzamientosProducto1, .lanzamientosProducto2, .lanzamientosProducto3{
+    width: 12rem;
+}
+.lanzamientosDescripcion p{
+    font-size: .8rem;
+}
+.lanzamientosDescripcion h2{
+    font-size: .9rem;
+}
+.lanzamientosDescripcion span{
+    font-size: .6rem;
+}
+.subtituloProductos{
+    font-size: .8rem;
+}
+.tituloProducto{
+    font-size: 1rem;
+}
+#etiquetaNuevo { 
+    width: 3rem;
+    height: 1.5rem;
+    font-size: .6rem;
+}
+}
 
 
 @media screen and (max-width:480px){
