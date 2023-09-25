@@ -155,6 +155,7 @@
 .productosRelacionadosProductos{
     display: flex;
     justify-content: space-between;  
+    flex-wrap: wrap;
 }
 #etiquetaNuevo { 
     width: 5rem;
@@ -252,4 +253,175 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+@media screen and (max-width:780px){
+
+    #producto{
+        margin-left:0;
+        margin-right:0;
+    }
+    .producto {  
+        flex-direction: column-reverse;
+    
+    }
+    .descripcionProductoItem{
+        margin-left: 2rem;
+    }
+    .subTituloItem{
+        font-size: .9rem;
+    }
+    .tituloItem{
+        font-size: 1.5rem;
+    }
+    .descripcionItem{
+
+        font-size: 1.2rem;
+    }
+    .precioItem{
+        font-size: 2rem;
+    }
+    .labelInput{
+        height: 2rem;
+    }
+    .inputCantidadItem{
+        width: 4rem;
+    }
+    .botonItemCarritoMas{
+        width: 2rem;
+        height: .9rem;
+    }
+    .botonItemCarritoMenos{
+        width: 2rem;
+        height: .9rem;    
+    }
+    .botonItemCarrito{
+        width: 10rem;
+        font-size: 14px;
+    
+    }
+    .imgProducto img{
+        width: 25rem;
+    }
+    /*Poductos Relacionados................................................................*/
+   .productosRelacionados{
+    margin: 0 1rem 0 1rem;
+   }
+    .productosRelacionadosTitulo{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .productosRelacionadosProductos{
+        justify-content: center;
+    }
+
+    .lanzamientosImg{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .lanzamientosImg img{
+        width: 15rem;
+    
+    }
+    .lanzamientosProducto1, .lanzamientosProducto2, .lanzamientosProducto3{
+        width: 12rem;
+    }
+    
+    .subtituloProductos{
+        font-size: .8rem;
+    }
+    .tituloProducto{
+        font-size: 1rem;
+    }
+    #etiquetaNuevo { 
+        width: 3rem;
+        height: 1.5rem;
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width:480px){
+
+
+
+    .descripcionProductoItem{
+        margin: 0 2rem 0 2rem;
+    }
+    
+    .imgProducto img{
+        width: 20rem;
+    }
+    /*Poductos Relacionados................................................................*/
+    .productosRelacionados{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2rem;
+    
+    }
+    .productosRelacionadosTitulo{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .productosRelacionadosProductos{
+        justify-content: center;
+    }
+
+    .lanzamientosImg{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .lanzamientosImg img{
+        width: 12rem;
+        justify-content: center;
+    
+    }
+    .lanzamientosProductos1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .lanzamientosProductos2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lanzamientosProductos3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    .subtituloProductos{
+        color:#333;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: .5rem;
+    }
+    .tituloProducto{
+        color: #111;
+        font-family: Raleway;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+       
+    }
+    .subtituloProductosCuotas{
+        color: #1D84B5;
+        font-family: Inter;
+        font-size: .8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+
 }
