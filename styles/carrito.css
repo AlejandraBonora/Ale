@@ -245,3 +245,185 @@
     line-height: normal;
     background: none;
 }
+@media screen and (max-width:780px){
+
+    #carrito{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #carrito h1{
+        font-size: 2rem;
+        border-bottom: .30rem solid #FF3333;
+        width: 22rem;
+    }
+    .lineaNaranjaTitulo{
+        border: 0;  
+    }
+
+    /*Resumen Carrito....................................................*/
+    
+    .tituloResumenCarrito{
+
+        font-size: 1.7rem;
+        border-bottom: .3rem solid #FF3333;  
+
+    }
+    .lineaNaranja{
+        border: 0
+    }
+    .tablaResumenCarrito{
+        width: 20rem;
+    }
+
+    .envioCarrito{
+        margin-bottom: .8rem;
+    }
+  
+    .subTituloResumen{
+   
+        font-size: .8rem;
+
+    }
+    #resumenNumeroEstilo{
+        font-size: .8rem;
+    }
+    .tituloTotalResumen{
+        font-size: 1.2rem;
+    }
+    #estiloNumeroTotal{
+
+        font-size: 1.1rem;
+    }
+    .botonPagarCarrito button{
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    #carrito h1{
+        font-size: 1.5rem;
+        border-bottom: .30rem solid #FF3333;
+        width: 17rem;
+    }
+    .lineaNaranjaTitulo{
+        border: 0;  
+    }
+    .encabezadoCarrito{
+  
+        font-size: .7rem;
+        
+    }
+    #detalleProductoTitulo{
+        width: 12rem;
+        text-align: center;
+        gap: .2rem;
+    }
+    #cantidadProductoTitulo{
+        width: 3rem;
+        text-align: center;
+        gap: .2rem;
+    }
+    #totalProductoTitulo{
+        width: 9rem;
+        text-align: center;
+        gap: .2rem;
+    }
+    #nadaProducto{
+        width: 1rem;
+        text-align: center;
+    }
+
+    .productoCarrito{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+       
+    }
+
+    .imgCompraCarrito{
+        margin-left: 0;
+        width: 6rem;
+    }
+    .descripcionProductoCarrito{
+       margin-left: .5rem;
+    }
+    .tituloDescripcionProductoCarrito{
+        font-size: .8rem;
+    }
+    .primerParrafoDescripcionProductoCarrito{
+        font-size: .7rem;
+    }
+    .segundoParrafoDescripcionProductoCarrito{
+        font-size: .8rem;     
+        margin-top: .5rem;
+    }
+    .cantidadProductoCarrito{
+        margin-left: 2.2rem;
+    }
+    .imputCantidadProductoCarrito{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .botonCantidadProductoCarrito{
+            width:1.5rem ;
+            height: 1rem;
+            text-align: center ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    } 
+    .precioProductoCarrito{
+        margin-left: .5rem;
+        font-size: .8rem;
+    }
+    .iconoEliminarCarrito{
+        width: 10%;
+        display: flex;
+        justify-content: end;
+        padding: .3rem;
+    }
+    .iconoEliminarCarrito img{
+        width: 1.5rem;
+    }
+
+    /*Resumen Carrito....................................................*/
+
+    .tituloResumenCarrito{
+        font-size: 1.3rem;
+        border-bottom: .2rem solid #FF3333;  
+
+    }
+    .lineaNaranja{
+        border: 0
+    }
+    .tablaResumenCarrito{
+        width: 15rem;
+    }
+
+    .envioCarrito{
+        margin-bottom: .8rem;
+    }
+  
+    .subTituloResumen{
+        font-size: .7rem;
+
+    }
+    #resumenNumeroEstilo{
+        font-size: .7rem;
+    }
+    .tituloTotalResumen{
+        font-size: 1rem;
+    }
+    #estiloNumeroTotal{
+        font-size: 1rem;
+    }
+    .botonPagarCarrito button{
+        font-size: .9rem;
+    }
+}
