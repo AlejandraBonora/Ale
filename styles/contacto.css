@@ -41,4 +41,38 @@ form{
 
     }
 
+    @media screen and (max-width:780px){
+
+      form label, form legend{
+        font-size: 1.2rem;
+
+       }
+        .input-padron {
+        width: 45%;
+        }
+        .seccionLabelContactar{
+          margin-left: 34%;
+        }
+        .enviar{
+         width: 20%;
+         font-size: 1.2rem;
+ 
+        }
+        .enviar:hover{
+         background: #FF3333;
+         transform: scale(1.2);
+    
+        }
+    }
+    @media screen and (max-width:480px){
+
+        .input-padron {
+        width: 65%;
+        }
+        .checkbox{
+          margin-left: 2rem;
+        }
+
+    }
+
 
