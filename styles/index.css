@@ -18,8 +18,7 @@ body{
     background-repeat: no-repeat;
     object-position: center 80%;
     object-fit: cover;
-    filter: blur(.19rem);
-    filter: brightness(55%);
+    filter: blur(2px) brightness(55%);
 }
 .descripcionBanner{
     position: absolute;
@@ -66,6 +65,7 @@ body{
 .descripcionBanner button a{
     text-decoration: none;
     color: #111;
+    font-weight: 400;
 }
 .descripcionBanner button a:visited{
     text-decoration: none;
@@ -268,7 +268,7 @@ body{
 .nuevosLanzamientosProductos{
     display: flex;
     justify-content: space-between;  
-    flex-wrap: wrap;
+    
 }
 #etiquetaNuevo { 
     width: 5rem;
@@ -293,14 +293,16 @@ body{
     width: 20rem;
 
 }
-.lanzamientosProducto1 .lanzamientosProducto1 .descripcionProducto3{
+.lanzamientosProducto1 .lanzamientosProducto2 .lanzamientosProducto3{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
     
 }
-
+.lanzamientosDescripcion p,.lanzamientosDescripcion h2,.lanzamientosDescripcion span{
+    margin-bottom: .5rem;
+}
 .nuevosLanzamientos h2{
     color: #111;
     font-family: Inter;
@@ -326,120 +328,208 @@ body{
     line-height: normal;
 }
 
-@media screen and (max-width:780px){
+
+
+
+
+
+
+
+
+
+
+
+
+/*notebook*/
+@media screen and (max-width:1200px){
     /*banner------------------------------------------------------------*/
-#banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
+
+.imgBanner img{
+ 
+    filter: blur(2px) brightness(55%);
+   
+}
 .descripcionBanner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
-
+    margin-left: 6rem;
+}
+.descripcionBanner h1{
+    font-size: 2rem;
+}
+.descripcionBanner p {
+    font-size: 1.2rem;
+}
+.descripcionBanner button a{
+    font-weight: 600;
 }
 
 /*Seccion Productos --------------------------------------*/
 
 .productos{
-    margin-left: 5%;
-    margin-right:5%;  
+    margin-left: 8%;
+    margin-right: 8%;  
 }
 .lineaNaranja{
-    border: .125rem solid #FF3333;  
+    border: .15rem solid #FF3333;  
     width: inherit;
     height: 0;
     margin:  1.5rem 0 1rem 0;
 }
 
-.imgProducto1 img, .producto2 img, .producto3 img{
-    position: relative;
-    width: 100%;
-    padding: 2rem;
-}
-.descripcionProducto1 {
-    position: relative;
-    width:100%; 
-}
-.descripcionProducto1 h1,.descripcionProducto2 h1,.descripcionProducto3 h1{
-    font-size: 2rem;    
-}
-.descripcionProducto1 p, .descripcionProducto2 p, .descripcionProducto2 p{
-    font-size: 1.2rem;
- 
+.imgProducto1 img, .imgProducto2 img,.imgProducto3 img{
+    width: 33rem;
 }
 
-.descripcionProducto1 button,.descripcionProducto2 button,.descripcionProducto3 button{
-    width: 9rem;
-    height: 2.5rem;
+.descripcionProducto1 h1, .descripcionProducto2 h1,.descripcionProducto3 h1 {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+.descripcionProducto1 p, .descripcionProducto2 p,.descripcionProducto3 p{
+    font-size: 1.3rem;
+  
+}
+.descripcionProducto1 img{   
+    width: 100%
+}
+.descripcionProducto1 button{
+    width: 15rem;
+}
+
+
+
+/* SECCION nuevos lanzamientos ------------------------------------ */
+.nuevosLanzamientos{
+    
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 2rem;
+
+}
+.nuevosLanzamientos h1{
+    font-weight: 800;
+}
+
+#etiquetaNuevo { 
+    width: 5.2rem;
+    height:1.7rem;
     font-size: .8rem;
 }
-/*---------------------------------------------------------------*/
-.producto2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
+/*tablet*/
+@media screen and (max-width:780px){
+    /*banner------------------------------------------------------------*/
+    #banner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
-/*-------------------------------------------------------------------*/
+    .descripcionBanner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
 
-.producto3 {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-}
+    }
+
+    /*Seccion Productos --------------------------------------*/
+
+    .productos{
+        margin-left: 5%;
+        margin-right:5%;  
+    }
+    .lineaNaranja{
+        border: .125rem solid #FF3333;  
+        width: inherit;
+        height: 0;
+        margin:  1.5rem 0 1rem 0;
+    }
+
+    .imgProducto1 img, .producto2 img, .producto3 img{
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+    }
+    .descripcionProducto1 {
+        position: relative;
+        width:100%; 
+    }
+    .descripcionProducto1 h1,.descripcionProducto2 h1,.descripcionProducto3 h1{
+        font-size: 2rem;    
+    }
+    .descripcionProducto1 p, .descripcionProducto2 p, .descripcionProducto2 p{
+        font-size: 1.2rem;
+    
+    }
+
+    .descripcionProducto1 button,.descripcionProducto2 button,.descripcionProducto3 button{
+        width: 9rem;
+        height: 2.5rem;
+        font-size: .8rem;
+    }
+    /*---------------------------------------------------------------*/
+    .producto2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    .producto3 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 /* SECCION nuevos lanzamientos ------------------------------------ */
 
-.nuevosLanzamientos{
+    .nuevosLanzamientos{
     margin: 0 5% 0 5%;
-}
-.nuevosLanzamientos h1{
-    font-size: 2rem;
+    }
+    .nuevosLanzamientos h1{
+        font-size: 2rem;
+    }
+
+    .lanzamientosImg{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .lanzamientosImg img{
+        width: 15rem;
+
+    }
+    .lanzamientosProducto1, .lanzamientosProducto2, .lanzamientosProducto3{
+        width: 12rem;
+    }
+    .lanzamientosDescripcion p{
+        font-size: .8rem;
+    }
+    .lanzamientosDescripcion h2{
+        font-size: .9rem;
+    }
+    .lanzamientosDescripcion span{
+        font-size: .6rem;
+    }
+    .subtituloProductos{
+        font-size: .8rem;
+    }
+    .tituloProducto{
+        font-size: 1rem;
+    }
+    #etiquetaNuevo { 
+        width: 3rem;
+        height: 1.5rem;
+        font-size: .6rem;
+    }
 }
 
-.lanzamientosImg{
-    display: flex;
-    justify-content: flex-end;
-}
-.lanzamientosImg img{
-    width: 15rem;
-
-}
-.lanzamientosProducto1, .lanzamientosProducto2, .lanzamientosProducto3{
-    width: 12rem;
-}
-.lanzamientosDescripcion p{
-    font-size: .8rem;
-}
-.lanzamientosDescripcion h2{
-    font-size: .9rem;
-}
-.lanzamientosDescripcion span{
-    font-size: .6rem;
-}
-.subtituloProductos{
-    font-size: .8rem;
-}
-.tituloProducto{
-    font-size: 1rem;
-}
-#etiquetaNuevo { 
-    width: 3rem;
-    height: 1.5rem;
-    font-size: .6rem;
-}
-}
-
-
+/*celular*/
 @media screen and (max-width:480px){
     #banner{
         align-items: center;
