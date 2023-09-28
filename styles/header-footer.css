@@ -183,6 +183,14 @@ footer p{
 @media screen and (max-width:480px){
     .navHeaderUsuarioAdmin{
         width: 100%;
+
+    }
+    .navHeaderUsuarioAdmin a{
+        width: auto;
+        justify-content: center;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        font-size: .8rem;
     }
     .logoMenu{
         width: 20rem;
