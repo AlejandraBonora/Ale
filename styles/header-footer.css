@@ -126,7 +126,11 @@ footer p{
     
 }
 @media screen and (max-width:780px){
-    
+    .navHeaderUsuario{
+        display: flex;
+        align-items: center;
+        margin-right: -2rem;
+    }
     #cabeceraUsuario { 
         height: 12rem;
         display: flex;
@@ -171,7 +175,11 @@ footer p{
     }
 }
 @media screen and (max-width:480px){
-    
+    .navHeaderUsuario{
+        display: flex;
+        align-items: center;
+        margin-right: -2rem;
+    }
     .logoMenu{
         width: 20rem;
         height: auto;
