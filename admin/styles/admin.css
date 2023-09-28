@@ -131,3 +131,55 @@ main{
 .trashAdmin{
     width: 1.8rem;
 }
+@media screen and (max-width:480px){
+
+    .inputBuscarLupa{
+        width: 15rem;        
+    }
+    /*Seccion tabla....................................................*/
+    .tituloTablaAdmin{
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    .tituloPrincipalTabla{
+
+        font-size: 1rem;
+        text-align: start;
+    }
+    .subtTituloBoton{
+        display: flex;
+        align-items: center;
+    }
+    .tituloSecundarioTabla{
+        font-size: .8rem;
+    }
+    .imgBotonAgregar{
+        width: 2rem;
+        margin-left: .5rem;
+    }
+    /*interior tabla..................................*/
+    .tituloProductoTabla{
+        margin: 5% 2% 2% 3%;
+        font-size: .7rem;
+    }
+
+    .productoIngresadoAdmin{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .textoProductoIgresado{
+        font-size: .7rem;
+        gap: .4rem;
+    }
+
+    .lapizEditar{
+        width: 1.4rem;
+        margin-right: .5rem;
+    }
+    .trashAdmin{
+        width: 1.4rem;
+    }
+}

@@ -23,7 +23,7 @@
 }
 .lineaNaranjaTitulo{
     border: .15rem solid #FF3333;  
-    width: 30%;
+    width: 28rem;
     height: 0;
     margin-bottom: 2rem;
 }
@@ -246,6 +246,8 @@
     line-height: normal;
     background: none;
 }
+
+
 @media screen and (max-width:780px){
 
     #carrito{
@@ -338,14 +340,12 @@
         width: 1rem;
         text-align: center;
     }
-
     .productoCarrito{
         display: flex;
         align-items: center;
         justify-content: flex-start;
        
     }
-
     .imgCompraCarrito{
         margin-left: 0;
         width: 6rem;
@@ -367,7 +367,7 @@
         margin-left: 2.2rem;
     }
     .imputCantidadProductoCarrito{
-        width: 2rem;
+        width: 1.8rem;
         height: 2rem;
     }
 
