@@ -250,7 +250,7 @@ body{
 
 /* SECCION nuevos lanzamientos ------------------------------------ */
 .nuevosLanzamientos{
-    
+
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 2rem;
@@ -267,6 +267,7 @@ body{
     margin-bottom: 3rem;
 }
 .nuevosLanzamientosProductos{
+    list-style: none;
     display: flex;
     justify-content: space-between;  
     
@@ -288,17 +289,19 @@ body{
 }
 .lanzamientosImg{
     display: flex;
-    justify-content: flex-end;
+    
 }
 .lanzamientosImg img{
     width: 20rem;
 
 }
+
 .lanzamientosProducto1 .lanzamientosProducto2 .lanzamientosProducto3{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+    
     
 }
 .lanzamientosDescripcion p,.lanzamientosDescripcion h2,.lanzamientosDescripcion span{

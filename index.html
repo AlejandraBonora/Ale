@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/header-footer.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/nmp/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/nmp/@glidejs/glide/dist/css/glide.theme.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -44,7 +46,7 @@
             <h1>Nuevos Ingresos</h1>
                 <p>Descubrí el próximo Funko Pop de tu colección</p>
             <button>
-                <a href="shop.html">SHOP</a>
+                <a href="/pages/shop.html">SHOP</a>
             </button> 
         </div>
         <div class="imgBanner">
@@ -55,7 +57,7 @@
     <section class="productos">
         <article class="producto1">
             <div class="imgProducto1">
-                <a href="item.html">
+                <a href="/pages/item.html">
                    <img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby Yoda">
                 </a>
             </div>
@@ -64,95 +66,110 @@
                     <p>Disfruta de una saga que sigue <br>agregando personajes a su coleccion.
                     </p>
                         <div class="lineaNaranja"></div>
-                    <a href="shop.html">
+                    <a href="/pages/shop.html">
                         <button type="button" >VER COLECCION</button>
                     </a>
             </div> 
         </article>
         <article class="producto2">
             <div class="imgProducto2">
-                <img src="multimedia/pokemon/vulpix-1.webp" alt="linea">
+                <a href="/pages/item.html">
+                    <img src="multimedia/pokemon/vulpix-1.webp" alt="linea">
+                </a>
             </div>
             <div class="descripcionProducto2">
                 <h1>POKEMON INDIGO</h1>
                     <p>Atrapa todos los que puedas y disfruta <br> de una colección llena de amigos.</p>
                         <div class="lineaNaranja"></div>
-                    <a href="shop.html">
+                    <a href="/pages/shop.html">
                         <button>VER COLECCION</button>
                     </a>
             </div>
         </article>  
         <article class="producto3">
             <div class="imgProducto3">
-                <img src="multimedia/harry-potter/snape-patronus-1.webp" alt="funko patronus">
+                <a href="/pages/item.html">
+                    <img src="multimedia/harry-potter/snape-patronus-1.webp" alt="funko patronus">
+                </a>    
             </div>
             <div class="descripcionProducto3" >
                 <h1>HARRY POTTER</h1>
                     <p>Revive los recuerdos de una saga llena <br>de magia y encanto.</p>
                         <div class="lineaNaranja"></div>
-                    <a href="shop.html">
+                    <a href="/pages/shop.html">
                         <button>VER COLECCION</button>
                     </a>
             </div>
         </article>
     </section>
 
-    <section class="nuevosLanzamientos">
+    <section class="nuevosLanzamientos glide ">
         <h1>ÚLTIMOS LANZAMIENTOS</h1>
-        <div class="nuevosLanzamientosProductos">
-            <div class="lanzamientosProducto1">
-                <div class="lanzamientosImg">
-                    <p id="etiquetaNuevo">NUEVO</p>
-                        <img src="multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
-                </div>
-                <div class="lanzamientosDescripcion" >
-                    <p>STAR WARS</p>
-                    <h2>STORMTROOPER LIGHTSABER</h2>
-                    <p>$ 1799,99</p>
-                    <span>3 CUOTAS SIN INTERÉS</span>   
-                </div> 
-            </div>
-            <div class="lanzamientosProducto2">
-                <div class="lanzamientosImg">
-                    <p id="etiquetaNuevo">NUEVO</p>
-                    <img src="multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
-                </div> 
-                <div class="lanzamientosDescripcion">
-                    <p>POKEMON</p>
-                    <h2>PIDGEOTTO</h2>
-                    <p>$ 1799,99</p>
-                    <span>3 CUOTAS SIN INTERÉS</span>  
-                </div>                   
-            </div>         
-            <div class="lanzamientosProducto3">
-                <div class="lanzamientosImg">
-                    <p id="etiquetaNuevo">NUEVO</p>
-                    <img src="multimedia/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
-                </div>
-                <div class="lanzamientosDescripcion">
-                    <p>HARRY POTTER</p>
-                    <h2>LUNA LOVEGOOD LION MASK</h2>                    
-                    <p>$ 1799,99</p>
-                    <span>3 CUOTAS SIN INTERÉS</span>   
-                </div>                            
-            </div>                    
-     </div>       
-    </section>
-    <script src="scripts/header.js"></script>
-  </main>  
-  <footer>
+        <div class="glide__track" data-glide-el="track">
+            <ul class="nuevosLanzamientosProductos glide__slides" >
+                <li class="lanzamientosProducto1 glide__slide">
+                    <div class="lanzamientosImg">
+                        <p id="etiquetaNuevo">NUEVO</p>
+                            <img src="multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
+                    </div>
+                    <div class="lanzamientosDescripcion" >
+                        <p>STAR WARS</p>
+                        <h2>STORMTROOPER LIGHTSABER</h2>
+                        <p>$ 1799,99</p>
+                        <span>3 CUOTAS SIN INTERÉS</span>   
+                    </div> 
+                </li>
+                <li class="lanzamientosProducto2 glide__slide">
+                    <div class="lanzamientosImg">
+                        <p id="etiquetaNuevo">NUEVO</p>
+                        <img src="multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
+                    </div> 
+                    <div class="lanzamientosDescripcion">
+                        <p>POKEMON</p>
+                        <h2>PIDGEOTTO</h2>
+                        <p>$ 1799,99</p>
+                        <span>3 CUOTAS SIN INTERÉS</span>  
+                    </div>                   
+                </li>         
+                <li class="lanzamientosProducto3 glide__slide">
+                    <div class="lanzamientosImg">
+                        <p id="etiquetaNuevo">NUEVO</p>
+                        <img src="multimedia/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
+                    </div>
+                    <div class="lanzamientosDescripcion">
+                        <p>HARRY POTTER</p>
+                        <h2>LUNA LOVEGOOD LION MASK</h2>                    
+                        <p>$ 1799,99</p>
+                        <span>3 CUOTAS SIN INTERÉS</span>   
+                    </div>                            
+                </li>                    
+            </ul>
+        </div>       
+    </section>      
+    </main>  
+    <footer>
     <div class="footerUsuario">
         <div class="navFooter">
-            <a href="shop.html">SHOP</a>
+            <a href="/shop.html">SHOP</a>
             <a href="admin/login.html">INGRESAR</a>
             <a href="admin/register.html">REGISTRARSE</a>
-            <a href="contacto.html">CONTACTO</a>
+            <a href="/contacto.html">CONTACTO</a>
         </div>
         <div class="logoFooter">
             <img src="multimedia/branding/isotype.svg" alt="Logo Funkoshop">
         </div>
     </div>
     <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
-</footer>   
+    </footer>
+        <script src="scripts/header.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script>
+            new Glide('.glide',{
+                type: "carousel",
+                startAt : 0,
+                perView : 3,
+                gap : 100,
+            }).mount();
+        </script>
 </body>
 </html>
