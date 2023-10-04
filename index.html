@@ -144,7 +144,11 @@
                     </div>                            
                 </li>                    
             </ul>
-        </div>       
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="fluent:chevron-up-12-filled" rotate="270deg"></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="fluent:chevron-up-12-filled" rotate="90deg"></iconify-icon></button>
+          </div>     
     </section>      
     </main>  
     <footer>
@@ -163,13 +167,7 @@
     </footer>
         <script src="scripts/header.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-        <script>
-            new Glide('.glide',{
-                type: "carousel",
-                startAt : 0,
-                perView : 3,
-                gap : 100,
-            }).mount();
-        </script>
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+        <script src="./scripts/slide.js"></script>
 </body>
 </html>

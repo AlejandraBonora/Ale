@@ -250,7 +250,7 @@ body{
 
 /* SECCION nuevos lanzamientos ------------------------------------ */
 .nuevosLanzamientos{
-
+    overflow: hidden;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 2rem;
@@ -331,6 +331,8 @@ body{
     font-weight: 500;
     line-height: normal;
 }
+
+
 
 
 
