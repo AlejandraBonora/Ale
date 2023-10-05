@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/header-footer.css">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/item.css">
+    <link rel="stylesheet" href="../styles/header-footer.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/item.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -19,107 +19,106 @@
 
     <title>ITEM</title>
 </head>
-<header id="cabeceraUsuario">
-    <a href="/index.html">
-        <img  class="logoMenu" src="/multimedia/branding/logo_light_horizontal.svg" alt="logo">
-    </a>
-    <div class="menuHeader"></div>
-    <nav class="navHeaderUsuario">         
-        <select class="selectShop" name="radio" id="shopSelect">
-            <option value="shop" >SHOP</option>
-            <option value="pokemon">POKEMON</option>
-            <option value="starwars">STARWARS</option>
-            <option value="harrypotter">HARRY POTTER</option>  
-        </select>         
-        <a class="menuHeader-link" href="contacto.html">CONTACTO</a>
-        <a class="menuHeader-link" href="/admin/login.html">LOGIN</a>
-        <a class="menuHeader-link" href="carrito.html">
-            <img src="/multimedia/icons/cart-icon.svg" alt="carrito">
-        </a>    
-    </nav>
-    </div>      
-</header>
-<main>
-    <section id="producto">
-        <div class="producto">
-            <div class="descripcionProductoItem">
-                <p class="subTituloItem">STAR WARS</p>
-                <h1 class="tituloItem">BABY YODA BLUEBALL</h1>
-                <P class="descripcionItem">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</P>
-                <p class="precioItem">$1799,99</p>
-                <label class="labelInput" for="input">
-                    <input  class="inputCantidadItem" type="number" name="productoElegido" id="productoElegido" placeholder="0">
-                    <div class="flexBotonMasMenos">
-                        <button class="botonItemCarritoMas">+</button>
-                        <button class="botonItemCarritoMenos">-</button>
-                    </div>
-                    <button class="botonItemCarrito" >Agregar al carrito</button>
-                </label>
-                <label class="labelPagos" for="text">
-                    <a class="pagosItemLink" href="#" >Ver metodos de pago</a>
-                    <p class="pagosItem">- 3 CUOTAS SIN INTERÉS</p>
-                </label>                   
+    <header id="cabeceraUsuario">
+        <a href="../index.html">
+            <img  class="logoMenu" src="../multimedia/branding/logo_light_horizontal.svg" alt="logo">
+        </a>
+        <nav class="navHeaderUsuario">         
+            <select class="selectShop" name="radio" id="shopSelect">
+                <option value="shop" >SHOP</option>
+                <option value="pokemon">POKEMON</option>
+                <option value="starwars">STARWARS</option>
+                <option value="harrypotter">HARRY POTTER</option>  
+            </select>         
+            <a class="menuHeader-link" href="contacto.html">CONTACTO</a>
+            <a class="menuHeader-link" href="../admin/login.html">LOGIN</a>
+            <a class="menuHeader-link" href="carrito.html">
+                <img src="../multimedia/icons/cart-icon.svg" alt="carrito">
+            </a>    
+        </nav>
+        </div>      
+    </header>
+    <main>
+        <section id="producto">
+            <div class="producto">
+                <div class="descripcionProductoItem">
+                    <p class="subTituloItem">STAR WARS</p>
+                    <h1 class="tituloItem">BABY YODA BLUEBALL</h1>
+                    <P class="descripcionItem">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</P>
+                    <p class="precioItem">$1799,99</p>
+                    <label class="labelInput" for="input">
+                        <input  class="inputCantidadItem" type="number" name="productoElegido" id="productoElegido" placeholder="0">
+                        <div class="flexBotonMasMenos">
+                            <button class="botonItemCarritoMas">+</button>
+                            <button class="botonItemCarritoMenos">-</button>
+                        </div>
+                        <button class="botonItemCarrito" >Agregar al carrito</button>
+                    </label>
+                    <label class="labelPagos" for="text">
+                        <a class="pagosItemLink" href="#" >Ver metodos de pago</a>
+                        <p class="pagosItem">- 3 CUOTAS SIN INTERÉS</p>
+                    </label>                   
+                </div>
+                <div class="imgProducto">
+                    <img src="../multimedia/star-wars/baby-yoda-1.webp" alt="baby Yoda">
+                </div>
+        </section>
+    <section class="productosRelacionados">
+        <h2 class="productosRelacionadosTitulo">PRODUCTOS RELACIONADOS</h2>
+        <div class="productosRelacionadosProductos">
+            <div class="lanzamientosProducto1">
+                <div class="lanzamientosImg">
+                    <p id="etiquetaNuevo">NUEVO</p>
+                    <button class="botonProductoAnterior"><</button>
+                    <img src="../multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
+                </div>
+                <div class="lanzamientosDescripcion" >
+                    <p class="subtituloProductos">STAR WARS</p>
+                    <h3 class="tituloProducto">STORMTROOPER LIGHTSABER</h3>
+                    <p class="subtituloProductos">$ 1799,99</p>
+                    <p class="subtituloProductosCuotas">3 CUOTAS SIN INTERÉS</p>   
+                </div> 
             </div>
-            <div class="imgProducto">
-                <img src="/multimedia/star-wars/baby-yoda-1.webp" alt="baby Yoda">
+            <div class="lanzamientosProducto2">
+                <div class="lanzamientosImg">
+                    <p id="etiquetaNuevo">NUEVO</p>
+                    <img src="../multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
+                </div> 
+                <div class="lanzamientosDescripcion">
+                    <p class="subtituloProductos">POKEMON</p>
+                    <h3 class="tituloProducto">PIDGEOTTO</h3>
+                    <p class="subtituloProductos">$ 1799,99</p>
+                    <p class="subtituloProductosCuotas">3 CUOTAS SIN INTERÉS</p>  
+                </div>                   
+            </div>         
+            <div class="lanzamientosProducto3">
+                <div class="lanzamientosImg">
+                    <p id="etiquetaNuevo">NUEVO</p>
+                    <button class="botonProductoPosterior">></button>
+                    <img src="../multimedia/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
+                </div>
+                <div class="lanzamientosDescripcion">
+                    <p class="subtituloProductos">HARRY POTTER</p>
+                    <h3 class="tituloProducto">LUNA LOVEGOOD LION MASK</h3>                    
+                    <p class="subtituloProductos">$ 1799,99</p>
+                    <p class="subtituloProductosCuotas">3 CUOTAS SIN INTERÉS</p>   
+                </div>                            
             </div>
-    </section>
-<section class="productosRelacionados">
-    <h2 class="productosRelacionadosTitulo">PRODUCTOS RELACIONADOS</h2>
-    <div class="productosRelacionadosProductos">
-        <div class="lanzamientosProducto1">
-            <div class="lanzamientosImg">
-                <p id="etiquetaNuevo">NUEVO</p>
-                <button class="botonProductoAnterior"><</button>
-                <img src="/multimedia/star-wars/trooper-1.webp" alt="star wars tropa"></img>
-            </div>
-            <div class="lanzamientosDescripcion" >
-                <p class="subtituloProductos">STAR WARS</p>
-                <h3 class="tituloProducto">STORMTROOPER LIGHTSABER</h3>
-                <p class="subtituloProductos">$ 1799,99</p>
-                <p class="subtituloProductosCuotas">3 CUOTAS SIN INTERÉS</p>   
-            </div> 
-        </div>
-        <div class="lanzamientosProducto2">
-            <div class="lanzamientosImg">
-                <p id="etiquetaNuevo">NUEVO</p>
-                <img src="/multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto pokemon"></img>
-            </div> 
-            <div class="lanzamientosDescripcion">
-                <p class="subtituloProductos">POKEMON</p>
-                <h3 class="tituloProducto">PIDGEOTTO</h3>
-                <p class="subtituloProductos">$ 1799,99</p>
-                <p class="subtituloProductosCuotas">3 CUOTAS SIN INTERÉS</p>  
-            </div>                   
         </div>         
-        <div class="lanzamientosProducto3">
-            <div class="lanzamientosImg">
-                <p id="etiquetaNuevo">NUEVO</p>
-                <button class="botonProductoPosterior">></button>
-                <img src="/multimedia/harry-potter/luna-1.webp" alt="Luna Harry Potter"></img>
+    </main>
+    <footer>
+        <div class="footerUsuario">
+            <div class="navFooter">
+                <a href="shop.html">SHOP</a>
+                <a href="../admin/login.html">INGRESAR</a>
+                <a href="../admin/register.html">REGISTRARSE</a>
+                <a href="contacto.html">CONTACTO</a>
             </div>
-            <div class="lanzamientosDescripcion">
-                <p class="subtituloProductos">HARRY POTTER</p>
-                <h3 class="tituloProducto">LUNA LOVEGOOD LION MASK</h3>                    
-                <p class="subtituloProductos">$ 1799,99</p>
-                <p class="subtituloProductosCuotas">3 CUOTAS SIN INTERÉS</p>   
-            </div>                            
+            <div class="logoFooter">
+                <img src="../multimedia/branding/isotype.svg" alt="Logo Funkoshop">
+            </div>
         </div>
-    </div>         
-</main>
-<footer>
-    <div class="footerUsuario">
-        <div class="navFooter">
-            <a href="shop.html">SHOP</a>
-            <a href="/admin/login.html">INGRESAR</a>
-            <a href="/admin/register.html">REGISTRARSE</a>
-            <a href="contacto.html">CONTACTO</a>
-        </div>
-        <div class="logoFooter">
-            <img src="/multimedia/branding/isotype.svg" alt="Logo Funkoshop">
-        </div>
-    </div>
-    <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
-</footer>  
+        <p class="copy">All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>  
 </body>
 </html>
